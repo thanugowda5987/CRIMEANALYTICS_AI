@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KSP Crime Analytics AI - Chatbot</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        KSP Crime AI
+    </div>
+
+    <div class="nav-links">
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="chatbot.html">Chatbot</a>
+
+        <a href="prediction.html">Prediction</a>
+
+        <a href="hotspot.html">Hotspots</a>
+
+        <a href="login.html">Logout</a>
+
+    </div>
+
+</nav>
+
+<div class="container">
+
+    <h1 style="color:#0d47a1;text-align:center;">
+
+        AI Crime Investigation Assistant
+
+    </h1>
+
+    <p style="text-align:center;margin-top:10px;color:gray;">
+
+        Ask crime-related questions and receive AI-powered responses.
+
+    </p>
+
+</div>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+
+        KSP Crime AI Assistant
+
+    </div>
+
+    <div
+        class="chat-box"
+        id="chatBox">
+
+        <div class="message bot">
+
+            Hello Officer 👮<br><br>
+
+            I am your Crime Analytics AI Assistant.
+
+            Ask me about crimes, FIRs, suspects,
+            predictions, hotspots or crime statistics.
+
+        </div>
+
+    </div>
+
+    <div class="chat-input">
+
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Type your question here...">
+
+        <button
+            onclick="sendMessage()">
+
+            Send
+
+        </button>
+
+        <button
+            onclick="clearChat()">
+
+            Clear
+
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+
+© 2026 KSP Crime Analytics AI Platform
+
+</footer>
+
+<script src="js/chatbot.js"></script>
+
+</body>
+
+</html>

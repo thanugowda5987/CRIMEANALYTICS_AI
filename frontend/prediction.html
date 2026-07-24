@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KSP Crime Analytics AI - Crime Prediction</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<nav>
+
+    <div class="logo">
+
+        KSP Crime AI
+
+    </div>
+
+    <div class="nav-links">
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="chatbot.html">Chatbot</a>
+
+        <a href="prediction.html">Prediction</a>
+
+        <a href="hotspot.html">Hotspots</a>
+
+        <a href="login.html">Logout</a>
+
+    </div>
+
+</nav>
+
+<!-- ================= PAGE TITLE ================= -->
+
+<div class="container">
+
+    <h1 style="text-align:center;color:#0d47a1;">
+
+        Crime Prediction System
+
+    </h1>
+
+    <p style="text-align:center;color:gray;margin-top:10px;">
+
+        Predict crime risk using Artificial Intelligence
+
+    </p>
+
+</div>
+
+<!-- ================= PREDICTION FORM ================= -->
+
+<div class="form-box">
+
+    <h2 style="color:#1565c0;margin-bottom:20px;">
+
+        Prediction Details
+
+    </h2>
+
+    <label>District</label>
+
+    <select id="district">
+
+        <option>Bengaluru</option>
+        <option>Mysuru</option>
+        <option>Mangaluru</option>
+        <option>Hubballi</option>
+        <option>Belagavi</option>
+
+    </select>
+
+    <label>Crime Type</label>
+
+    <select id="crimeType">
+
+        <option>Theft</option>
+        <option>Robbery</option>
+        <option>Murder</option>
+        <option>Cyber Crime</option>
+        <option>Fraud</option>
+
+    </select>
+
+    <label>Year</label>
+
+    <input
+        type="number"
+        id="year"
+        value="2026">
+
+    <button onclick="predictCrime()">
+
+        Predict Crime
+
+    </button>
+
+</div>
+
+<!-- ================= RESULT ================= -->
+
+<div class="container">
+
+    <div class="card">
+
+        <h2 style="color:#1565c0;">
+
+            Prediction Result
+
+        </h2>
+
+        <br>
+
+        <p id="result">
+
+            Click the button to generate prediction.
+
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+
+© 2026 KSP Crime Analytics AI Platform
+
+</footer>
+
+<script src="js/prediction.js"></script>
+
+</body>
+
+</html>
