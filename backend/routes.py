@@ -1,19 +1,157 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 from models import Crime, Criminal, Victim, Officer, FIR, PoliceStation, Evidence
 
 api = Blueprint("api", __name__)
 
+# ---------------------------------------
+# HOME API
+# ---------------------------------------
 
 @api.route("/api")
 def api_home():
     return jsonify({
-        "message": "KSP Crime Analytics API Running"
+        "message": "KSP Crime Analytics API Running Successfully"
+    })
+
+# ---------------------------------------
+# LOGIN API
+# ---------------------------------------
+
+@api.route("/login", methods=["POST"])
+def login():
+
+    data = request.get_json()
+
+    username = data.get("username")
+    password = data.get("password")
+
+    # Demo Login
+    if username == "thanu" and password == "123":
+
+        return jsonify({
+            "message": "Login Successful"
+        })
+
+    return jsonify({
+        "message": "Invalid Username or Password"
+    }), 401
+
+
+# ---------------------------------------
+# CRIME API
+# ---------------------------------------
+
+@api.route("/crime", methods=["GET"])
+def get_crime():
+
+    crimes = Crime.query.all()
+
+    result = []
+
+    for c in crimes:
+
+        result.append({
+
+            "id": c.crime_id,
+
+            "type": c.crime_type,
+
+            "location": c.location,
+
+            "status": c.status
+
+        })
+
+    return jsonify(result)
+
+
+# ---------------------------------------
+# CHATBOT API
+# ---------------------------------------
+
+@api.route("/chat", methods=["POST"])
+def chatbot():
+
+    data = request.get_json()
+
+    message = data.get("message")
+
+    return jsonify({
+
+        "reply": f"You asked: {message}. AI module will provide intelligent response."
+
     })
 
 
-@api.route("/api/crimes")
-def get_all_crimes():
-    ...
+# ---------------------------------------
+# PREDICTION API
+# ---------------------------------------
+
+@api.route("/prediction", methods=["POST"])
+def prediction():
+
+    data = request.get_json()
+
+    district = data.get("district")
+    crime = data.get("crime_type")
+
+    return jsonify({
+
+        "prediction": f"High probability of {crime} cases in {district}.",
+
+        "risk": "High",
+
+        "recommendation": "Increase police patrol and CCTV surveillance."
+
+    })
+
+
+# ---------------------------------------
+# HOTSPOT API
+# ---------------------------------------
+
+@api.route("/hotspot", methods=["GET"])
+def hotspot():
+
+    return jsonify([
+
+        {
+
+            "area":"Bengaluru South",
+
+            "crime_count":120,
+
+            "risk":"High"
+
+        },
+
+        {
+
+            "area":"Mysuru",
+
+            "crime_count":70,
+
+            "risk":"Medium"
+
+        },
+
+        {
+
+            "area":"Belagavi",
+
+            "crime_count":35,
+
+            "risk":"Low"
+
+        }
+
+    ])
+
+
+# ---------------------------------------
+# EXISTING APIs
+# ---------------------------------------
+
 @api.route('/api/criminals')
 def get_criminals():
 
@@ -31,6 +169,8 @@ def get_criminals():
         }
         for c in criminals
     ])
+
+
 @api.route('/api/victims')
 def get_victims():
 
@@ -47,6 +187,8 @@ def get_victims():
         }
         for v in victims
     ])
+
+
 @api.route('/api/officers')
 def get_officers():
 
@@ -62,6 +204,8 @@ def get_officers():
         }
         for o in officers
     ])
+
+
 @api.route('/api/firs')
 def get_firs():
 
@@ -77,6 +221,8 @@ def get_firs():
         }
         for f in firs
     ])
+
+
 @api.route('/api/policestations')
 def get_stations():
 
@@ -92,6 +238,8 @@ def get_stations():
         }
         for s in stations
     ])
+
+
 @api.route('/api/evidence')
 def get_evidence():
 

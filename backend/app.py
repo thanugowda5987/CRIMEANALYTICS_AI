@@ -1,15 +1,21 @@
 from flask import Flask
+from flask_cors import CORS
 from database import db
 from routes import api
 import os
-from routes import api
 
+# ----------------------------------------
+# Create Flask App
+# ----------------------------------------
 
 app = Flask(__name__)
 
-# -------------------------------------------------
+# Enable CORS for frontend
+CORS(app)
+
+# ----------------------------------------
 # Database Configuration
-# -------------------------------------------------
+# ----------------------------------------
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
@@ -18,28 +24,28 @@ DB_PATH = os.path.join(BASE_DIR, "..", "database", "crime.db")
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + DB_PATH.replace("\\", "/")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-# -------------------------------------------------
+# ----------------------------------------
 # Initialize Database
-# -------------------------------------------------
+# ----------------------------------------
 
 db.init_app(app)
 
-# -------------------------------------------------
-# Register API Routes
-# -------------------------------------------------
+# ----------------------------------------
+# Register Blueprint
+# ----------------------------------------
 
 app.register_blueprint(api)
 
-# -------------------------------------------------
-# Create Tables (Only if not already present)
-# -------------------------------------------------
+# ----------------------------------------
+# Create Tables
+# ----------------------------------------
 
 with app.app_context():
     db.create_all()
 
-# -------------------------------------------------
+# ----------------------------------------
 # Home Route
-# -------------------------------------------------
+# ----------------------------------------
 
 @app.route("/")
 def home():
@@ -48,13 +54,24 @@ def home():
         "organization": "Karnataka State Police (KSP)",
         "status": "Backend Running Successfully",
         "database": "Connected",
-        "records": "1000+ Crime Records",
-        "api": "/api"
+        "api": [
+            "/login",
+            "/crime",
+            "/chat",
+            "/prediction",
+            "/hotspot",
+            "/api/criminals",
+            "/api/victims",
+            "/api/officers",
+            "/api/firs",
+            "/api/policestations",
+            "/api/evidence"
+        ]
     }
 
-# -------------------------------------------------
-# Run Flask Server
-# -------------------------------------------------
+# ----------------------------------------
+# Run Server
+# ----------------------------------------
 
 if __name__ == "__main__":
     app.run(
