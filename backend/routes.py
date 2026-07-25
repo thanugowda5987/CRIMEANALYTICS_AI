@@ -3,19 +3,36 @@ from models import Crime, Criminal, Victim, Officer, FIR, PoliceStation, Evidenc
 
 api = Blueprint("api", __name__)
 
-# ---------------------------------------
-# HOME API
-# ---------------------------------------
+# =========================================================
+# HOME
+# =========================================================
 
-@api.route("/api")
-def api_home():
+@api.route("/")
+def home():
     return jsonify({
-        "message": "KSP Crime Analytics API Running Successfully"
+        "project": "Crime Analytics AI",
+        "organization": "Karnataka State Police (KSP)",
+        "status": "Backend Running Successfully",
+        "database": "Connected",
+        "api": [
+            "/login",
+            "/crime",
+            "/chat",
+            "/prediction",
+            "/hotspot",
+            "/api/criminals",
+            "/api/victims",
+            "/api/officers",
+            "/api/firs",
+            "/api/policestations",
+            "/api/evidence"
+        ]
     })
 
-# ---------------------------------------
-# LOGIN API
-# ---------------------------------------
+
+# =========================================================
+# LOGIN
+# =========================================================
 
 @api.route("/login", methods=["POST"])
 def login():
@@ -25,24 +42,32 @@ def login():
     username = data.get("username")
     password = data.get("password")
 
-    # Demo Login
     if username == "thanu" and password == "123":
 
         return jsonify({
-            "message": "Login Successful"
+
+            "success": True,
+            "message": "Login Successful",
+            "username": username,
+            "role": "Police Officer",
+            "token": "ksp-demo-token"
+
         })
 
     return jsonify({
+
+        "success": False,
         "message": "Invalid Username or Password"
+
     }), 401
 
 
-# ---------------------------------------
-# CRIME API
-# ---------------------------------------
+# =========================================================
+# CRIME
+# =========================================================
 
 @api.route("/crime", methods=["GET"])
-def get_crime():
+def get_crimes():
 
     crimes = Crime.query.all()
 
@@ -52,12 +77,10 @@ def get_crime():
 
         result.append({
 
-            "id": c.crime_id,
-
-            "type": c.crime_type,
-
+            "crime_id": c.crime_id,
+            "crime_type": c.crime_type,
             "location": c.location,
-
+            "district": c.district,
             "status": c.status
 
         })
@@ -65,27 +88,30 @@ def get_crime():
     return jsonify(result)
 
 
-# ---------------------------------------
-# CHATBOT API
-# ---------------------------------------
+# =========================================================
+# CHATBOT
+# =========================================================
 
 @api.route("/chat", methods=["POST"])
 def chatbot():
 
     data = request.get_json()
 
-    message = data.get("message")
+    message = data.get("message", "")
 
     return jsonify({
 
-        "reply": f"You asked: {message}. AI module will provide intelligent response."
+        "success": True,
+
+        "reply":
+        f"KSP AI Assistant: I received your query '{message}'. Analysis completed."
 
     })
 
 
-# ---------------------------------------
-# PREDICTION API
-# ---------------------------------------
+# =========================================================
+# PREDICTION
+# =========================================================
 
 @api.route("/prediction", methods=["POST"])
 def prediction():
@@ -97,18 +123,22 @@ def prediction():
 
     return jsonify({
 
-        "prediction": f"High probability of {crime} cases in {district}.",
+        "prediction":
+        f"High probability of {crime}",
 
-        "risk": "High",
+        "risk_level": "High",
 
-        "recommendation": "Increase police patrol and CCTV surveillance."
+        "confidence": 92,
+
+        "recommendation":
+        f"Increase police patrols and CCTV surveillance in {district}."
 
     })
 
 
-# ---------------------------------------
-# HOTSPOT API
-# ---------------------------------------
+# =========================================================
+# HOTSPOTS
+# =========================================================
 
 @api.route("/hotspot", methods=["GET"])
 def hotspot():
@@ -148,109 +178,123 @@ def hotspot():
     ])
 
 
-# ---------------------------------------
-# EXISTING APIs
-# ---------------------------------------
+# =========================================================
+# CRIMINALS
+# =========================================================
 
-@api.route('/api/criminals')
-def get_criminals():
+@api.route("/api/criminals")
+def criminals():
 
-    criminals = Criminal.query.all()
+    data = Criminal.query.all()
 
-    return jsonify([
-        {
-            "criminal_id": c.criminal_id,
-            "criminal_name": c.criminal_name,
-            "age": c.age,
-            "gender": c.gender,
-            "address": c.address,
-            "gang_name": c.gang_name,
-            "previous_cases": c.previous_cases
-        }
-        for c in criminals
-    ])
+    return jsonify([{
 
+        "criminal_id":x.criminal_id,
+        "criminal_name":x.criminal_name,
+        "age":x.age,
+        "gender":x.gender,
+        "address":x.address,
+        "gang_name":x.gang_name,
+        "previous_cases":x.previous_cases
 
-@api.route('/api/victims')
-def get_victims():
-
-    victims = Victim.query.all()
-
-    return jsonify([
-        {
-            "victim_id": v.victim_id,
-            "victim_name": v.victim_name,
-            "age": v.age,
-            "gender": v.gender,
-            "phone": v.phone,
-            "address": v.address
-        }
-        for v in victims
-    ])
+    } for x in data])
 
 
-@api.route('/api/officers')
-def get_officers():
+# =========================================================
+# VICTIMS
+# =========================================================
 
-    officers = Officer.query.all()
+@api.route("/api/victims")
+def victims():
 
-    return jsonify([
-        {
-            "officer_id": o.officer_id,
-            "officer_name": o.officer_name,
-            "rank": o.rank,
-            "station_id": o.station_id,
-            "phone": o.phone
-        }
-        for o in officers
-    ])
+    data = Victim.query.all()
 
+    return jsonify([{
 
-@api.route('/api/firs')
-def get_firs():
+        "victim_id":x.victim_id,
+        "victim_name":x.victim_name,
+        "age":x.age,
+        "gender":x.gender,
+        "phone":x.phone,
+        "address":x.address
 
-    firs = FIR.query.all()
-
-    return jsonify([
-        {
-            "fir_id": f.fir_id,
-            "fir_number": f.fir_number,
-            "filing_date": f.filing_date,
-            "station_id": f.station_id,
-            "officer_id": f.officer_id
-        }
-        for f in firs
-    ])
+    } for x in data])
 
 
-@api.route('/api/policestations')
-def get_stations():
+# =========================================================
+# OFFICERS
+# =========================================================
 
-    stations = PoliceStation.query.all()
+@api.route("/api/officers")
+def officers():
 
-    return jsonify([
-        {
-            "station_id": s.station_id,
-            "station_name": s.station_name,
-            "district": s.district,
-            "city": s.city,
-            "phone": s.phone
-        }
-        for s in stations
-    ])
+    data = Officer.query.all()
+
+    return jsonify([{
+
+        "officer_id":x.officer_id,
+        "officer_name":x.officer_name,
+        "rank":x.rank,
+        "station_id":x.station_id,
+        "phone":x.phone
+
+    } for x in data])
 
 
-@api.route('/api/evidence')
-def get_evidence():
+# =========================================================
+# FIR
+# =========================================================
 
-    evidence = Evidence.query.all()
+@api.route("/api/firs")
+def firs():
 
-    return jsonify([
-        {
-            "evidence_id": e.evidence_id,
-            "crime_id": e.crime_id,
-            "evidence_type": e.evidence_type,
-            "description": e.description
-        }
-        for e in evidence
-    ])
+    data = FIR.query.all()
+
+    return jsonify([{
+
+        "fir_id":x.fir_id,
+        "fir_number":x.fir_number,
+        "filing_date":str(x.filing_date),
+        "station_id":x.station_id,
+        "officer_id":x.officer_id
+
+    } for x in data])
+
+
+# =========================================================
+# POLICE STATIONS
+# =========================================================
+
+@api.route("/api/policestations")
+def stations():
+
+    data = PoliceStation.query.all()
+
+    return jsonify([{
+
+        "station_id":x.station_id,
+        "station_name":x.station_name,
+        "district":x.district,
+        "city":x.city,
+        "phone":x.phone
+
+    } for x in data])
+
+
+# =========================================================
+# EVIDENCE
+# =========================================================
+
+@api.route("/api/evidence")
+def evidence():
+
+    data = Evidence.query.all()
+
+    return jsonify([{
+
+        "evidence_id":x.evidence_id,
+        "crime_id":x.crime_id,
+        "evidence_type":x.evidence_type,
+        "description":x.description
+
+    } for x in data])

@@ -1,160 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>KSP Crime Analytics AI</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
+
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+<!-- ===================================================
+                    TOP HEADER
+==================================================== -->
 
-    <nav>
+<div class="top-header">
 
-        <div class="logo">
-            KSP Crime AI
-        </div>
+    <div class="top-left">
 
-        <div class="nav-links">
+        <span>
+            <i class="fa-solid fa-phone"></i>
+            Emergency : 112
+        </span>
 
-            <a href="index.html">Home</a>
-
-            <a href="login.html">Login</a>
-
-            <a href="dashboard.html">Dashboard</a>
-
-            <a href="chatbot.html">AI Chatbot</a>
-
-            <a href="prediction.html">Prediction</a>
-
-            <a href="hotspot.html">Hotspots</a>
-
-        </div>
-
-    </nav>
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero">
-
-        <div>
-
-            <h1>Karnataka State Police Crime Analytics AI</h1>
-
-            <p>
-                Intelligent Conversational AI, Crime Prediction,
-                Hotspot Detection and Crime Analytics Dashboard
-                powered by Artificial Intelligence.
-            </p>
-
-            <a href="login.html" class="btn">
-                Get Started
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FEATURES ================= -->
-
-    <div class="container">
-
-        <h1 style="text-align:center;color:#0d47a1;margin-bottom:35px;">
-            Platform Features
-        </h1>
-
-        <div class="card-grid">
-
-            <div class="card">
-                <h2>AI Crime Chatbot</h2>
-
-                <p>
-                    Ask crime-related questions in natural language.
-                    Get instant responses using AI integrated with
-                    your backend APIs.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h2>Crime Prediction</h2>
-
-                <p>
-                    Predict crime categories and identify potential
-                    future crime trends using machine learning.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h2>Crime Hotspots</h2>
-
-                <p>
-                    Visualize crime hotspots across Karnataka using
-                    maps and analytics generated from your database.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h2>Secure Login</h2>
-
-                <p>
-                    Authentication for police officers and authorized
-                    users with secure backend validation.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h2>Analytics Dashboard</h2>
-
-                <p>
-                    Monitor FIRs, crime statistics, prediction reports,
-                    and AI insights in one centralized dashboard.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h2>Reports</h2>
-
-                <p>
-                    Generate reports and review historical crime data
-                    using intelligent search and filtering.
-                </p>
-
-            </div>
-
-        </div>
+        <span>
+            <i class="fa-solid fa-envelope"></i>
+            support@kspcrimeai.gov.in
+        </span>
 
     </div>
 
-    <!-- ================= ABOUT ================= -->
+    <div class="top-right">
 
-    <div class="container">
+        <button
+            class="lang-btn"
+            id="languageBtn">
 
-        <div class="card">
+            English
 
-            <h2>About the Platform</h2>
+        </button>
 
-            <p style="margin-top:15px;line-height:30px;">
+    </div>
 
-                The KSP Crime Analytics AI Platform is designed to assist
-                Karnataka State Police with crime analysis, AI-powered
-                conversations, predictive analytics, hotspot detection,
-                and intelligent reporting.
+</div>
 
-                The system integrates modern Artificial Intelligence,
-                Machine Learning, Flask APIs, and a secure database to
-                improve crime investigation and decision-making.
+<!-- ===================================================
+                    HEADER
+==================================================== -->
+
+<header>
+
+    <div class="logo-section">
+
+        <img
+            src="images/ksp-logo.png"
+            alt="KSP Logo">
+
+        <div class="logo-title">
+
+            <h1
+                id="mainTitle">
+
+                Karnataka State Police
+
+            </h1>
+
+            <p
+                id="subTitle">
+
+                Crime Analytics AI Platform
 
             </p>
 
@@ -162,14 +90,641 @@
 
     </div>
 
-    <!-- ================= FOOTER ================= -->
+    <a
+        href="login.html"
+        class="login-btn"
+        id="loginText">
 
-    <footer>
+        Officer Login
 
-        © 2026 KSP Crime Analytics AI Platform |
-        Developed for Smart Policing
+    </a>
 
-    </footer>
+</header>
+
+<!-- ===================================================
+                    NAVIGATION
+==================================================== -->
+
+<nav>
+
+<ul>
+
+<li>
+<a href="index.html" id="navHome">
+Home
+</a>
+</li>
+
+<li>
+<a href="dashboard.html" id="navDashboard">
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="chatbot.html" id="navChatbot">
+AI Chatbot
+</a>
+</li>
+
+<li>
+<a href="prediction.html" id="navPrediction">
+Prediction
+</a>
+</li>
+
+<li>
+<a href="hotspot.html" id="navHotspot">
+Hotspots
+</a>
+</li>
+
+<li>
+<a href="login.html" id="navLogin">
+Login
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+<!-- ===================================================
+                    HERO
+==================================================== -->
+
+<section class="hero">
+
+<div>
+
+<h1 id="heroTitle">
+
+Crime Analytics AI
+
+</h1>
+
+<p id="heroText">
+
+Empowering Karnataka State Police with Artificial Intelligence,
+Crime Prediction,
+Hotspot Detection,
+and Smart Investigation.
+
+</p>
+
+<div class="hero-buttons">
+
+<a
+href="dashboard.html"
+class="btn btn-primary"
+id="dashboardBtn">
+
+Open Dashboard
+
+</a>
+
+<a
+href="chatbot.html"
+class="btn btn-secondary"
+id="chatBtn">
+
+AI Assistant
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================
+                DASHBOARD STARTS HERE
+==================================================== -->
+
+<section class="dashboard">
+
+<div class="container">
+
+<h2
+class="section-title"
+id="dashboardTitle">
+
+Crime Statistics
+
+</h2>
+
+<p
+class="section-subtitle"
+id="dashboardSubtitle">
+
+Real-time analytics from the Karnataka State Police Crime Database.
+
+</p>
+
+<div class="stats-grid">
+    <!-- ===================================================
+                    STAT CARD 1
+==================================================== -->
+
+<div class="stat-card blue">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-file-shield"></i>
+
+    </div>
+
+    <h2 id="firCount">
+
+        1,254
+
+    </h2>
+
+    <h4 id="firText">
+
+        Total FIRs
+
+    </h4>
+
+</div>
+
+<!-- ===================================================
+                    STAT CARD 2
+==================================================== -->
+
+<div class="stat-card green">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-user-secret"></i>
+
+    </div>
+
+    <h2>
+
+        897
+
+    </h2>
+
+    <h4 id="crimeText">
+
+        Criminal Records
+
+    </h4>
+
+</div>
+
+<!-- ===================================================
+                    STAT CARD 3
+==================================================== -->
+
+<div class="stat-card orange">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-chart-line"></i>
+
+    </div>
+
+    <h2>
+
+        94%
+
+    </h2>
+
+    <h4 id="predictionText">
+
+        Prediction Accuracy
+
+    </h4>
+
+</div>
+
+<!-- ===================================================
+                    STAT CARD 4
+==================================================== -->
+
+<div class="stat-card red">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+    </div>
+
+    <h2>
+
+        18
+
+    </h2>
+
+    <h4 id="hotspotText">
+
+        Active Hotspots
+
+    </h4>
+
+</div>
+
+<!-- ===================================================
+                    STAT CARD 5
+==================================================== -->
+
+<div class="stat-card purple">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-robot"></i>
+
+    </div>
+
+    <h2>
+
+        AI
+
+    </h2>
+
+    <h4 id="chatbotText">
+
+        Smart Crime Assistant
+
+    </h4>
+
+</div>
+
+<!-- ===================================================
+                    STAT CARD 6
+==================================================== -->
+
+<div class="stat-card cyan">
+
+    <div class="stat-icon">
+
+        <i class="fa-solid fa-building-shield"></i>
+
+    </div>
+
+    <h2>
+
+        124
+
+    </h2>
+
+    <h4 id="stationText">
+
+        Police Stations
+
+    </h4>
+
+</div>
+
+</div>
+
+<!-- ===================================================
+                QUICK ACTIONS
+==================================================== -->
+
+<div class="quick-actions">
+
+<div class="action-card">
+
+<h3 id="action1">
+
+🤖 AI Crime Assistant
+
+</h3>
+
+<p id="action1Text">
+
+Ask questions about FIRs, criminals, crime trends,
+or request AI-powered insights from the KSP database.
+
+</p>
+
+<a href="chatbot.html"
+class="btn btn-primary">
+
+Open AI Chatbot
+
+</a>
+
+</div>
+
+<div class="action-card">
+
+<h3 id="action2">
+
+📊 Crime Prediction
+
+</h3>
+
+<p id="action2Text">
+
+Predict future crime trends using Artificial Intelligence
+and Machine Learning models.
+
+</p>
+
+<a href="prediction.html"
+class="btn btn-primary">
+
+View Prediction
+
+</a>
+
+</div>
+
+<div class="action-card">
+
+<h3 id="action3">
+
+📍 Crime Hotspots
+
+</h3>
+
+<p id="action3Text">
+
+Visualize crime hotspots across Karnataka using maps,
+analytics, and district-wise insights.
+
+</p>
+
+<a href="hotspot.html"
+class="btn btn-primary">
+
+Open Map
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ===================================================
+                    CHART SECTION
+==================================================== -->
+
+<div class="chart-grid">
+
+<div class="chart-card">
+
+<h3>
+
+Monthly Crime Trend
+
+</h3>
+
+<canvas id="crimeChart"></canvas>
+
+</div>
+
+<div class="chart-card">
+
+<h3>
+
+Crime Distribution
+
+</h3>
+
+<canvas id="pieChart"></canvas>
+
+</div>
+
+</div>
+<!-- ===================================================
+                    HOTSPOT MAP
+==================================================== -->
+
+<div class="map-card">
+
+    <h3 id="mapTitle">
+
+        Karnataka Crime Hotspot Map
+
+    </h3>
+
+    <div id="map">
+
+        <img src="images/karnataka-map.png"
+             alt="Karnataka Map">
+
+    </div>
+
+</div>
+
+<!-- ===================================================
+                RECENT FIR TABLE
+==================================================== -->
+
+<div class="table-card">
+
+    <div class="table-title"
+         id="recentFirTitle">
+
+        Recent FIR Records
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>FIR No</th>
+
+                <th>Crime Type</th>
+
+                <th>District</th>
+
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>FIR001</td>
+
+                <td>Theft</td>
+
+                <td>Bengaluru</td>
+
+                <td>
+                    <span class="badge badge-progress">
+                        Under Investigation
+                    </span>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>FIR002</td>
+
+                <td>Cyber Crime</td>
+
+                <td>Mysuru</td>
+
+                <td>
+                    <span class="badge badge-open">
+                        Open
+                    </span>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>FIR003</td>
+
+                <td>Robbery</td>
+
+                <td>Hubballi</td>
+
+                <td>
+                    <span class="badge badge-solved">
+                        Solved
+                    </span>
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<!-- ===================================================
+                EMERGENCY INFORMATION
+==================================================== -->
+
+<div class="quick-actions" style="margin-top:50px;">
+
+    <div class="action-card">
+
+        <h3>🚔 Emergency Services</h3>
+
+        <p>
+
+            Emergency Number : <strong>112</strong><br>
+            Women Helpline : <strong>1091</strong><br>
+            Cyber Crime : <strong>1930</strong>
+
+        </p>
+
+    </div>
+
+    <div class="action-card">
+
+        <h3>🤖 AI Features</h3>
+
+        <p>
+
+            • Crime Prediction<br>
+            • Hotspot Detection<br>
+            • AI Chatbot<br>
+            • Crime Analytics Dashboard
+
+        </p>
+
+    </div>
+
+    <div class="action-card">
+
+        <h3>📍 Karnataka State Police</h3>
+
+        <p>
+
+            Intelligent Crime Analytics Platform for
+            faster investigations, smart policing,
+            and AI-powered decision support.
+
+        </p>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================
+                    FOOTER
+==================================================== -->
+
+<footer>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<h3>KSP Crime Analytics AI</h3>
+
+<p>
+
+AI-powered crime analytics platform developed for
+Karnataka State Police to improve investigation,
+prediction, and public safety.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<p>Dashboard</p>
+<p>AI Chatbot</p>
+<p>Crime Prediction</p>
+<p>Hotspots</p>
+
+</div>
+
+<div>
+
+<h3>Emergency</h3>
+
+<p>Police : 112</p>
+<p>Cyber Crime : 1930</p>
+<p>Women Helpline : 1091</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+© 2026 Karnataka State Police |
+Crime Analytics AI Platform
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- ===================================================
+                    CHART.JS
+==================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- ===================================================
+                    APP JS
+==================================================== -->
+
+<script src="js/app.js"></script>
 
 </body>
+
 </html>

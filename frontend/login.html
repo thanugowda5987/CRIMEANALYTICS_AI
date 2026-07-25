@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>KSP Crime Analytics AI - Login</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>KSP Officer Login</title>
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
-<body>
+<body class="login-page">
 
-    <!-- Navigation -->
+<div class="login-container">
 
-    <nav>
+    <div class="login-card">
 
-        <div class="logo">
-            KSP Crime AI
+        <!-- Logo -->
+
+        <div style="text-align:center;">
+
+            <img src="images/ksp-logo.png"
+                 alt="KSP Logo"
+                 style="width:100px;">
+
+            <h2 id="loginHeading">
+
+                Karnataka State Police
+
+            </h2>
+
+            <p id="loginSubHeading">
+
+                Crime Analytics AI Platform
+
+            </p>
+
         </div>
 
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="login.html">Login</a>
+        <br>
+
+        <!-- Language Button -->
+
+        <div style="text-align:right;">
+
+            <button
+                id="languageBtn"
+                class="lang-btn">
+
+                English
+
+            </button>
+
         </div>
 
-    </nav>
+        <br>
 
-    <!-- Login Form -->
-
-    <div class="login-container">
-
-        <h2>Officer Login</h2>
+        <!-- Login Form -->
 
         <form id="loginForm">
 
-            <div class="input-group">
+            <label id="userLabel">
 
-                <label>Username</label>
+                Officer Username
 
-                <input
-                    type="text"
-                    id="username"
-                    placeholder="Enter Username"
-                    required>
+            </label>
 
-            </div>
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Username"
+                required>
 
-            <div class="input-group">
+            <br><br>
 
-                <label>Password</label>
+            <label id="passLabel">
 
-                <input
-                    type="password"
-                    id="password"
-                    placeholder="Enter Password"
-                    required>
+                Password
 
-            </div>
+            </label>
 
-            <div style="margin-bottom:20px;">
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                required>
 
-                <input
-                    type="checkbox"
-                    id="showPassword">
+            <br><br>
 
-                <label for="showPassword">
-                    Show Password
-                </label>
-
-            </div>
-
-            <button type="submit">
+            <button
+                type="submit"
+                class="login-btn"
+                style="width:100%;">
 
                 Login
 
@@ -80,25 +107,150 @@
 
         </form>
 
+        <br>
+
         <p
-            id="message"
-            style="
-                margin-top:20px;
-                text-align:center;
-                color:red;
-                font-weight:bold;
-            ">
+            style="text-align:center;color:gray;">
+
+            Karnataka State Police © 2026
+
         </p>
 
     </div>
 
-    <footer>
+</div>
+<!-- ==========================================
+        LOGIN JAVASCRIPT
+========================================== -->
 
-        © 2026 KSP Crime Analytics AI Platform
+<script>
 
-    </footer>
+const languageBtn = document.getElementById("languageBtn");
 
-    <script src="js/login.js"></script>
+let english = true;
+
+languageBtn.addEventListener("click", () => {
+
+    if (english) {
+
+        document.getElementById("loginHeading").innerHTML =
+        "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್";
+
+        document.getElementById("loginSubHeading").innerHTML =
+        "ಅಪರಾಧ ವಿಶ್ಲೇಷಣಾ AI ವೇದಿಕೆ";
+
+        document.getElementById("userLabel").innerHTML =
+        "ಅಧಿಕಾರಿ ಬಳಕೆದಾರ ಹೆಸರು";
+
+        document.getElementById("passLabel").innerHTML =
+        "ಗುಪ್ತಪದ";
+
+        document.getElementById("username").placeholder =
+        "ಬಳಕೆದಾರ ಹೆಸರು ನಮೂದಿಸಿ";
+
+        document.getElementById("password").placeholder =
+        "ಗುಪ್ತಪದ ನಮೂದಿಸಿ";
+
+        document.querySelector(".login-btn").innerHTML =
+        "ಲಾಗಿನ್";
+
+        languageBtn.innerHTML = "ಕನ್ನಡ";
+
+    }
+
+    else{
+
+        document.getElementById("loginHeading").innerHTML =
+        "Karnataka State Police";
+
+        document.getElementById("loginSubHeading").innerHTML =
+        "Crime Analytics AI Platform";
+
+        document.getElementById("userLabel").innerHTML =
+        "Officer Username";
+
+        document.getElementById("passLabel").innerHTML =
+        "Password";
+
+        document.getElementById("username").placeholder =
+        "Enter Username";
+
+        document.getElementById("password").placeholder =
+        "Enter Password";
+
+        document.querySelector(".login-btn").innerHTML =
+        "Login";
+
+        languageBtn.innerHTML = "English";
+
+    }
+
+    english = !english;
+
+});
+
+
+// ==========================================
+// LOGIN API
+// ==========================================
+
+document.getElementById("loginForm").addEventListener("submit", async function(e){
+
+    e.preventDefault();
+
+    const username = document.getElementById("username").value;
+
+    const password = document.getElementById("password").value;
+
+    try{
+
+        const response = await fetch("http://127.0.0.1:5000/login",{
+
+            method:"POST",
+
+            headers:{
+                "Content-Type":"application/json"
+            },
+
+            body:JSON.stringify({
+
+                username:username,
+
+                password:password
+
+            })
+
+        });
+
+        const data = await response.json();
+
+        if(data.success){
+
+            alert("Login Successful");
+
+            window.location.href="dashboard.html";
+
+        }
+
+        else{
+
+            alert(data.message || "Invalid Username or Password");
+
+        }
+
+    }
+
+    catch(error){
+
+        alert("Cannot connect to Flask Server.");
+
+        console.log(error);
+
+    }
+
+});
+
+</script>
 
 </body>
 </html>

@@ -4,251 +4,404 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>KSP Crime Analytics AI - Dashboard</title>
+    <title>KSP Crime Analytics Dashboard</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+<!-- ==========================================
+            TOP HEADER
+========================================== -->
 
-<nav>
+<div class="top-header">
 
-    <div class="logo">
-        KSP Crime AI
+    <div class="top-left">
+
+        <span><i class="fa-solid fa-shield-halved"></i> Karnataka State Police</span>
+
     </div>
 
-    <div class="nav-links">
+    <div class="top-right">
 
-        <a href="dashboard.html">Dashboard</a>
+        <button class="lang-btn language-btn" data-lang="en">
+            English
+        </button>
+        <button class="lang-btn language-btn" data-lang="kn">
+            ಕನ್ನಡ
+        </button>
 
-        <a href="chatbot.html">AI Chatbot</a>
+    </div>
 
-        <a href="prediction.html">Prediction</a>
+</div>
 
-        <a href="hotspot.html">Hotspots</a>
+<!-- ==========================================
+                HEADER
+========================================== -->
 
-        <a href="index.html" onclick="logout()">
+<header>
+
+    <div class="logo-section">
+
+        <img src="images/ksp-logo.png" alt="KSP Logo">
+
+        <div class="logo-title">
+
+            <h1 id="dashboardHeading" data-key="title">
+
+                Crime Analytics Dashboard
+
+            </h1>
+
+            <p id="dashboardSubHeading" data-key="subtitle">
+
+                AI Powered Decision Support System
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="profile">
+
+        <img src="images/police-officer.png" alt="Officer">
+
+        <span>Officer</span>
+
+        <div class="notification">
+
+            <i class="fa-solid fa-bell"></i>
+
+        </div>
+
+        <a href="login.html" class="login-btn">
+
             Logout
+
         </a>
 
     </div>
 
-</nav>
+</header>
 
-<!-- ================= HEADER ================= -->
+<!-- ==========================================
+            DASHBOARD
+========================================== -->
 
-<div class="container">
-
-    <h1 style="color:#0d47a1">
-
-        Welcome,
-
-        <span id="username">
-            Officer
-        </span>
-
-    </h1>
-
-    <p style="margin-top:10px;color:gray;">
-
-        Karnataka State Police Crime Analytics Dashboard
-
-    </p>
-
-</div>
-
-<!-- ================= STATISTICS ================= -->
+<section class="dashboard">
 
 <div class="container">
 
-<div class="stats">
+<h2 class="section-title" data-key="overview">
 
-<div class="stat-box">
-
-<h1 id="firCount">
-0
-</h1>
-
-<p>Total FIRs</p>
-
-</div>
-
-<div class="stat-box">
-
-<h1 id="crimeCount">
-0
-</h1>
-
-<p>Total Crimes</p>
-
-</div>
-
-<div class="stat-box">
-
-<h1 id="predictionCount">
-0
-</h1>
-
-<p>Predictions</p>
-
-</div>
-
-<div class="stat-box">
-
-<h1 id="hotspotCount">
-0
-</h1>
-
-<p>Hotspots</p>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ================= QUICK ACTIONS ================= -->
-
-<div class="container">
-
-<h2
-style="
-margin-bottom:20px;
-color:#0d47a1;
-">
-
-Quick Actions
+Dashboard Overview
 
 </h2>
 
-<div class="card-grid">
+<p class="section-subtitle" data-key="realtime">
 
-<div class="card">
-
-<h2>AI Chatbot</h2>
-
-<p>
-
-Talk with the AI assistant.
+Real-Time Karnataka State Police Crime Analytics
 
 </p>
 
-<br>
+<div class="stats-grid">
 
-<a href="chatbot.html" class="btn">
+<div class="stat-card blue">
 
-Open
+<div class="stat-icon">
 
-</a>
-
-</div>
-
-<div class="card">
-
-<h2>Prediction</h2>
-
-<p>
-
-Predict future crime probability.
-
-</p>
-
-<br>
-
-<a href="prediction.html" class="btn">
-
-Open
-
-</a>
+<i class="fa-solid fa-file-shield"></i>
 
 </div>
 
-<div class="card">
+<h2 id="totalCrime">0</h2>
 
-<h2>Crime Hotspots</h2>
+<h4>Total Crimes</h4>
 
-<p>
+</div>
 
-View crime hotspot locations.
+<div class="stat-card green">
 
-</p>
+<div class="stat-icon">
 
-<br>
+<i class="fa-solid fa-user-secret"></i>
 
-<a href="hotspot.html" class="btn">
+</div>
 
-Open
+<h2 id="criminalCount">0</h2>
 
-</a>
+<h4>Criminals</h4>
+
+</div>
+
+<div class="stat-card orange">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-users"></i>
+
+</div>
+
+<h2 id="victimCount">0</h2>
+
+<h4>Victims</h4>
+
+</div>
+
+<div class="stat-card red">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+<h2>18</h2>
+
+<h4>Crime Hotspots</h4>
+
+</div>
+
+</div>
+<!-- ==========================================
+            CHARTS
+========================================== -->
+
+<div class="chart-grid">
+
+    <div class="chart-card">
+
+        <h3>Monthly Crime Trend</h3>
+
+        <canvas id="crimeChart"></canvas>
+
+    </div>
+
+    <div class="chart-card">
+
+        <h3>Crime Distribution</h3>
+
+        <canvas id="pieChart"></canvas>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+            RECENT CRIMES
+========================================== -->
+
+<div class="table-card">
+
+    <div class="table-title" data-key="recentRecords">
+
+        Recent Crime Records
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Crime ID</th>
+                <th>Crime Type</th>
+                <th>Location</th>
+                <th>District</th>
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="crimeTableBody">
+
+        </tbody>
+
+    </table>
 
 </div>
 
 </div>
 
-</div>
-
-<!-- ================= RECENT CRIME TABLE ================= -->
-
-<div class="container">
-
-<h2
-style="
-margin-bottom:20px;
-color:#0d47a1;
-">
-
-Recent Crime Records
-
-</h2>
-
-<table>
-
-<thead>
-
-<tr>
-
-<th>Crime ID</th>
-
-<th>Crime Type</th>
-
-<th>Location</th>
-
-<th>Status</th>
-
-</tr>
-
-</thead>
-
-<tbody id="crimeTable">
-
-<tr>
-
-<td colspan="4">
-
-Loading...
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
+</section>
 
 <footer>
 
-© 2026 KSP Crime Analytics AI Platform
+<div class="container">
+
+<div class="footer-bottom">
+
+© 2026 Karnataka State Police | Crime Analytics AI
+
+</div>
+
+</div>
 
 </footer>
-
 <script src="js/app.js"></script>
+
+<script>
+
+// ====================================
+// FETCH CRIME DATA
+// ====================================
+
+async function loadCrimes(){
+
+    try{
+
+        const response = await fetch("http://127.0.0.1:5000/api/crimes");
+
+        const crimes = await response.json();
+
+        document.getElementById("totalCrime").innerHTML = crimes.length;
+
+        let rows="";
+
+        crimes.forEach(crime=>{
+
+            rows += `
+
+            <tr>
+
+                <td>${crime.crime_id}</td>
+
+                <td>${crime.crime_type}</td>
+
+                <td>${crime.location}</td>
+
+                <td>${crime.district}</td>
+
+                <td>${crime.status}</td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("crimeTableBody").innerHTML = rows;
+
+    }
+
+    catch(error){
+
+        console.log(error);
+
+    }
+
+}
+
+// ====================================
+// FETCH CRIMINALS
+// ====================================
+
+async function loadCriminals(){
+
+    const response = await fetch("http://127.0.0.1:5000/api/criminals");
+
+    const data = await response.json();
+
+    document.getElementById("criminalCount").innerHTML = data.length;
+
+}
+
+// ====================================
+// FETCH VICTIMS
+// ====================================
+
+async function loadVictims(){
+
+    const response = await fetch("http://127.0.0.1:5000/api/victims");
+
+    const data = await response.json();
+
+    document.getElementById("victimCount").innerHTML = data.length;
+
+}
+
+// ====================================
+// BAR CHART
+// ====================================
+
+new Chart(document.getElementById("crimeChart"),{
+
+    type:"bar",
+
+    data:{
+
+        labels:["Jan","Feb","Mar","Apr","May","Jun"],
+
+        datasets:[{
+
+            label:"Crime",
+
+            data:[40,55,62,71,58,83],
+
+            backgroundColor:"#005BAC"
+
+        }]
+
+    }
+
+});
+
+// ====================================
+// PIE CHART
+// ====================================
+
+new Chart(document.getElementById("pieChart"),{
+
+    type:"pie",
+
+    data:{
+
+        labels:["Theft","Cyber","Robbery","Fraud"],
+
+        datasets:[{
+
+            data:[35,20,25,20],
+
+            backgroundColor:[
+
+                "#005BAC",
+
+                "#28a745",
+
+                "#FB8C00",
+
+                "#D32F2F"
+
+            ]
+
+        }]
+
+    }
+
+});
+
+// ====================================
+
+loadCrimes();
+
+loadCriminals();
+
+loadVictims();
+
+</script>
 
 </body>
 

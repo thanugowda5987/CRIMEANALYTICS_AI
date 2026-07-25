@@ -3,147 +3,210 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>KSP Crime Analytics AI - Crime Hotspots</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+<title>Crime Hotspots | KSP Crime Analytics AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<!-- Navigation -->
+<!-- ================= HEADER ================= -->
 
-<nav>
+<header>
 
-    <div class="logo">
-        KSP Crime AI
-    </div>
+<div class="logo-section">
 
-    <div class="nav-links">
+<img src="images/ksp-logo.png" alt="KSP Logo">
 
-        <a href="dashboard.html">Dashboard</a>
+<div class="logo-title">
 
-        <a href="chatbot.html">Chatbot</a>
+<h1 id="title">
 
-        <a href="prediction.html">Prediction</a>
-
-        <a href="hotspot.html">Hotspots</a>
-
-        <a href="login.html">Logout</a>
-
-    </div>
-
-</nav>
-
-<!-- Page Heading -->
-
-<div class="container">
-
-    <h1 style="text-align:center;color:#0d47a1;">
-
-        Crime Hotspot Analysis
-
-    </h1>
-
-    <p style="text-align:center;color:gray;">
-
-        AI Identified High-Risk Crime Locations
-
-    </p>
-
-</div>
-
-<!-- Statistics -->
-
-<div class="container">
-
-<div class="stats">
-
-<div class="stat-box">
-
-<h1 id="highRisk">
-
-0
+Crime Hotspot Dashboard
 
 </h1>
 
-<p>High Risk Areas</p>
+<p id="subtitle">
 
-</div>
+Artificial Intelligence Hotspot Detection
 
-<div class="stat-box">
-
-<h1 id="mediumRisk">
-
-0
-
-</h1>
-
-<p>Medium Risk Areas</p>
-
-</div>
-
-<div class="stat-box">
-
-<h1 id="lowRisk">
-
-0
-
-</h1>
-
-<p>Low Risk Areas</p>
+</p>
 
 </div>
 
 </div>
 
+<div>
+
+<button class="lang-btn" id="languageBtn">
+
+English
+
+</button>
+
+<a href="dashboard.html" class="login-btn">
+
+Dashboard
+
+</a>
+
 </div>
 
-<!-- Map Placeholder -->
+</header>
+
+<!-- ================= HOTSPOT SECTION ================= -->
+
+<section class="dashboard">
 
 <div class="container">
 
-<div class="card">
+<h2 class="section-title" id="hotspotTitle">
 
-<h2 style="color:#1565c0;">
+Karnataka Crime Hotspots
+
+</h2>
+
+<p class="section-subtitle" id="hotspotSubtitle">
+
+AI-powered crime hotspot monitoring across Karnataka.
+
+</p>
+
+<!-- MAP -->
+
+<div class="map-card">
+
+<h3 id="mapHeading">
 
 Crime Hotspot Map
 
-</h2>
+</h3>
+
+<div id="map">
+
+<img src="images/karnataka-map.png"
+     alt="Karnataka Map"
+     style="width:100%;height:500px;object-fit:contain;">
+
+</div>
+
+</div>
 
 <br>
 
-<div style="
-height:400px;
-background:#e8edf5;
-display:flex;
-justify-content:center;
-align-items:center;
-border-radius:10px;
-font-size:20px;
-color:#555;
-">
+<!-- HOTSPOT CARDS -->
 
-🗺️ Map Integration (Leaflet / Google Maps)
+<div class="stats-grid">
+
+<div class="stat-card red">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-location-dot"></i>
 
 </div>
 
-</div>
+<h2 id="district1">
 
-</div>
-
-<!-- Hotspot Table -->
-
-<div class="container">
-
-<h2 style="color:#1565c0;">
-
-Detected Hotspots
+Bengaluru
 
 </h2>
+
+<h4>
+
+High Risk
+
+</h4>
+
+</div>
+
+<div class="stat-card orange">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+<h2 id="district2">
+
+Mysuru
+
+</h2>
+
+<h4>
+
+Medium Risk
+
+</h4>
+
+</div>
+
+<div class="stat-card green">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+<h2 id="district3">
+
+Hubballi
+
+</h2>
+
+<h4>
+
+Low Risk
+
+</h4>
+
+</div>
+
+<div class="stat-card blue">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-building-shield"></i>
+
+</div>
+
+<h2 id="stationCount">
+
+124
+
+</h2>
+
+<h4>
+
+Police Stations
+
+</h4>
+
+</div>
+
+</div>
+
+<br>
+
+<!-- TABLE -->
+
+<div class="table-card">
+
+<div class="table-title">
+
+Latest Hotspot Alerts
+
+</div>
 
 <table>
 
@@ -151,11 +214,13 @@ Detected Hotspots
 
 <tr>
 
-<th>Area</th>
+<th>District</th>
 
-<th>Crime Count</th>
+<th>Crime Type</th>
 
 <th>Risk Level</th>
+
+<th>Status</th>
 
 </tr>
 
@@ -163,91 +228,131 @@ Detected Hotspots
 
 <tbody id="hotspotTable">
 
-<tr>
-
-<td colspan="3">
-
-Loading...
-
-</td>
-
-</tr>
-
 </tbody>
 
 </table>
 
 </div>
+<!-- ==========================================
+            HOTSPOT JAVASCRIPT
+========================================== -->
 
 <footer>
 
-© 2026 KSP Crime Analytics AI Platform
+<div class="container">
+
+<div class="footer-bottom">
+
+© 2026 Karnataka State Police | Crime Analytics AI Platform
+
+</div>
+
+</div>
 
 </footer>
 
 <script>
 
+// ==========================================
+// LANGUAGE SWITCH
+// ==========================================
+
+const languageBtn = document.getElementById("languageBtn");
+
+let english = true;
+
+languageBtn.addEventListener("click",()=>{
+
+if(english){
+
+document.getElementById("title").innerHTML="ಅಪರಾಧ ಹಾಟ್‌ಸ್ಪಾಟ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್";
+
+document.getElementById("subtitle").innerHTML="ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಆಧಾರಿತ ಹಾಟ್‌ಸ್ಪಾಟ್ ಪತ್ತೆ";
+
+document.getElementById("hotspotTitle").innerHTML="ಕರ್ನಾಟಕ ಅಪರಾಧ ಹಾಟ್‌ಸ್ಪಾಟ್‌ಗಳು";
+
+document.getElementById("hotspotSubtitle").innerHTML="ಕರ್ನಾಟಕದಾದ್ಯಂತ AI ಆಧಾರಿತ ಅಪರಾಧ ಮೇಲ್ವಿಚಾರಣೆ.";
+
+document.getElementById("mapHeading").innerHTML="ಅಪರಾಧ ಹಾಟ್‌ಸ್ಪಾಟ್ ನಕ್ಷೆ";
+
+languageBtn.innerHTML="ಕನ್ನಡ";
+
+}
+
+else{
+
+document.getElementById("title").innerHTML="Crime Hotspot Dashboard";
+
+document.getElementById("subtitle").innerHTML="Artificial Intelligence Hotspot Detection";
+
+document.getElementById("hotspotTitle").innerHTML="Karnataka Crime Hotspots";
+
+document.getElementById("hotspotSubtitle").innerHTML="AI-powered crime hotspot monitoring across Karnataka.";
+
+document.getElementById("mapHeading").innerHTML="Crime Hotspot Map";
+
+languageBtn.innerHTML="English";
+
+}
+
+english=!english;
+
+});
+
+
+// ==========================================
+// LOAD HOTSPOT DATA
+// ==========================================
+
 async function loadHotspots(){
 
 try{
 
-const response = await fetch("http://127.0.0.1:5000/hotspot");
+const response=await fetch("http://127.0.0.1:5000/hotspot");
 
-const hotspots = await response.json();
+const data=await response.json();
 
-let table="";
+let rows="";
 
-let high=0;
-let medium=0;
-let low=0;
+data.forEach(item=>{
 
-hotspots.forEach(item=>{
+let badgeColor="green";
 
-table+=`
+if(item.risk_level==="High") badgeColor="red";
+
+if(item.risk_level==="Medium") badgeColor="orange";
+
+rows+=`
 
 <tr>
 
-<td>${item.area}</td>
+<td>${item.district}</td>
 
-<td>${item.crime_count}</td>
+<td>${item.crime_type}</td>
 
-<td>${item.risk}</td>
+<td>
+
+<span class="badge badge-${badgeColor}">
+
+${item.risk_level}
+
+</span>
+
+</td>
+
+<td>${item.status}</td>
 
 </tr>
 
 `;
 
-if(item.risk==="High") high++;
-else if(item.risk==="Medium") medium++;
-else low++;
-
 });
 
-document.getElementById("hotspotTable").innerHTML=table;
-
-document.getElementById("highRisk").innerHTML=high;
-
-document.getElementById("mediumRisk").innerHTML=medium;
-
-document.getElementById("lowRisk").innerHTML=low;
+document.getElementById("hotspotTable").innerHTML=rows;
 
 }
 
 catch(error){
-
-document.getElementById("hotspotTable").innerHTML=`
-
-<tr>
-
-<td colspan="3">
-
-Unable to connect to backend.
-
-</td>
-
-</tr>
-
-`;
 
 console.log(error);
 
@@ -256,6 +361,13 @@ console.log(error);
 }
 
 loadHotspots();
+
+
+// ==========================================
+// AUTO REFRESH EVERY 30 SECONDS
+// ==========================================
+
+setInterval(loadHotspots,30000);
 
 </script>
 

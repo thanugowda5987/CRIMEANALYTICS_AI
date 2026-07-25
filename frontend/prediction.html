@@ -3,141 +3,382 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>KSP Crime Analytics AI - Crime Prediction</title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+<title>Crime Prediction | KSP Crime Analytics AI</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<!-- ================= NAVIGATION ================= -->
+<!-- ================= HEADER ================= -->
 
-<nav>
+<header>
 
-    <div class="logo">
+<div class="logo-section">
 
-        KSP Crime AI
+<img src="images/ksp-logo.png"
+alt="KSP Logo">
 
-    </div>
+<div class="logo-title">
 
-    <div class="nav-links">
+<h1 id="title">
 
-        <a href="dashboard.html">Dashboard</a>
+Crime Prediction System
 
-        <a href="chatbot.html">Chatbot</a>
+</h1>
 
-        <a href="prediction.html">Prediction</a>
+<p id="subtitle">
 
-        <a href="hotspot.html">Hotspots</a>
+Artificial Intelligence Based Crime Prediction
 
-        <a href="login.html">Logout</a>
+</p>
 
-    </div>
+</div>
 
-</nav>
+</div>
 
-<!-- ================= PAGE TITLE ================= -->
+<div>
+
+<button
+class="lang-btn"
+id="languageBtn">
+
+English
+
+</button>
+
+<a href="dashboard.html"
+class="login-btn">
+
+Dashboard
+
+</a>
+
+</div>
+
+</header>
+
+<!-- ================= PREDICTION ================= -->
+
+<section class="dashboard">
 
 <div class="container">
 
-    <h1 style="text-align:center;color:#0d47a1;">
+<h2
+class="section-title"
+id="predictionTitle">
 
-        Crime Prediction System
+AI Crime Prediction
 
-    </h1>
+</h2>
 
-    <p style="text-align:center;color:gray;margin-top:10px;">
+<p
+class="section-subtitle"
+id="predictionSubtitle">
 
-        Predict crime risk using Artificial Intelligence
+Predict crime probability using Machine Learning.
 
-    </p>
+</p>
+
+<div class="login-card"
+style="max-width:700px;margin:auto;">
+
+<form id="predictionForm">
+
+<label id="districtLabel">
+
+District
+
+</label>
+
+<select
+id="district"
+style="width:100%;padding:14px;margin-bottom:20px;">
+
+<option>Bengaluru</option>
+
+<option>Mysuru</option>
+
+<option>Mangaluru</option>
+
+<option>Belagavi</option>
+
+<option>Hubballi</option>
+
+<option>Shivamogga</option>
+
+<option>Tumakuru</option>
+
+<option>Dharwad</option>
+
+</select>
+
+<label id="crimeLabel">
+
+Crime Type
+
+</label>
+
+<select
+id="crimeType"
+style="width:100%;padding:14px;margin-bottom:20px;">
+
+<option>Theft</option>
+
+<option>Robbery</option>
+
+<option>Cyber Crime</option>
+
+<option>Murder</option>
+
+<option>Fraud</option>
+
+<option>Kidnapping</option>
+
+<option>Assault</option>
+
+</select>
+
+<label id="dateLabel">
+
+Prediction Date
+
+</label>
+
+<input
+type="date"
+id="date">
+
+<br><br>
+
+<button
+type="submit"
+class="login-btn"
+style="width:100%;">
+
+Predict Crime
+
+</button>
+
+</form>
 
 </div>
 
-<!-- ================= PREDICTION FORM ================= -->
+<br><br>
 
-<div class="form-box">
+<div class="stats-grid">
 
-    <h2 style="color:#1565c0;margin-bottom:20px;">
+<div class="stat-card blue">
 
-        Prediction Details
+<div class="stat-icon">
 
-    </h2>
-
-    <label>District</label>
-
-    <select id="district">
-
-        <option>Bengaluru</option>
-        <option>Mysuru</option>
-        <option>Mangaluru</option>
-        <option>Hubballi</option>
-        <option>Belagavi</option>
-
-    </select>
-
-    <label>Crime Type</label>
-
-    <select id="crimeType">
-
-        <option>Theft</option>
-        <option>Robbery</option>
-        <option>Murder</option>
-        <option>Cyber Crime</option>
-        <option>Fraud</option>
-
-    </select>
-
-    <label>Year</label>
-
-    <input
-        type="number"
-        id="year"
-        value="2026">
-
-    <button onclick="predictCrime()">
-
-        Predict Crime
-
-    </button>
+<i class="fa-solid fa-brain"></i>
 
 </div>
 
-<!-- ================= RESULT ================= -->
+<h2 id="riskValue">
 
-<div class="container">
+--
 
-    <div class="card">
+</h2>
 
-        <h2 style="color:#1565c0;">
+<h4>
 
-            Prediction Result
+Risk Level
 
-        </h2>
-
-        <br>
-
-        <p id="result">
-
-            Click the button to generate prediction.
-
-        </p>
-
-    </div>
+</h4>
 
 </div>
+
+<div class="stat-card red">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-chart-line"></i>
+
+</div>
+
+<h2 id="probability">
+
+--
+
+</h2>
+
+<h4>
+
+Probability
+
+</h4>
+
+</div>
+
+<div class="stat-card green">
+
+<div class="stat-icon">
+
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+<h2 id="predictionDistrict">
+
+--
+
+</h2>
+
+<h4>
+
+District
+
+</h4>
+
+</div>
+
+</div>
+<!-- ==========================================
+            PREDICTION SCRIPT
+========================================== -->
 
 <footer>
 
-© 2026 KSP Crime Analytics AI Platform
+<div class="container">
+
+<div class="footer-bottom">
+
+© 2026 Karnataka State Police | Crime Analytics AI Platform
+
+</div>
+
+</div>
 
 </footer>
 
-<script src="js/prediction.js"></script>
+<script>
+
+// ==========================================
+// LANGUAGE SWITCH
+// ==========================================
+
+const languageBtn = document.getElementById("languageBtn");
+
+let english = true;
+
+languageBtn.addEventListener("click",()=>{
+
+if(english){
+
+document.getElementById("title").innerHTML="ಅಪರಾಧ ಮುನ್ಸೂಚನೆ ವ್ಯವಸ್ಥೆ";
+
+document.getElementById("subtitle").innerHTML="ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಆಧಾರಿತ ಅಪರಾಧ ಮುನ್ಸೂಚನೆ";
+
+document.getElementById("predictionTitle").innerHTML="AI ಅಪರಾಧ ಮುನ್ಸೂಚನೆ";
+
+document.getElementById("predictionSubtitle").innerHTML="ಯಂತ್ರ ಕಲಿಕೆಯ ಮೂಲಕ ಅಪರಾಧ ಸಂಭವನೀಯತೆಯನ್ನು ಊಹಿಸಿ.";
+
+document.getElementById("districtLabel").innerHTML="ಜಿಲ್ಲೆ";
+
+document.getElementById("crimeLabel").innerHTML="ಅಪರಾಧದ ಪ್ರಕಾರ";
+
+document.getElementById("dateLabel").innerHTML="ದಿನಾಂಕ";
+
+languageBtn.innerHTML="ಕನ್ನಡ";
+
+}
+
+else{
+
+document.getElementById("title").innerHTML="Crime Prediction System";
+
+document.getElementById("subtitle").innerHTML="Artificial Intelligence Based Crime Prediction";
+
+document.getElementById("predictionTitle").innerHTML="AI Crime Prediction";
+
+document.getElementById("predictionSubtitle").innerHTML="Predict crime probability using Machine Learning.";
+
+document.getElementById("districtLabel").innerHTML="District";
+
+document.getElementById("crimeLabel").innerHTML="Crime Type";
+
+document.getElementById("dateLabel").innerHTML="Prediction Date";
+
+languageBtn.innerHTML="English";
+
+}
+
+english=!english;
+
+});
+
+
+// ==========================================
+// PREDICTION API
+// ==========================================
+
+document.getElementById("predictionForm").addEventListener("submit",async function(e){
+
+e.preventDefault();
+
+const district=document.getElementById("district").value;
+
+const crime=document.getElementById("crimeType").value;
+
+const date=document.getElementById("date").value;
+
+try{
+
+const response=await fetch("http://127.0.0.1:5000/prediction",{
+
+method:"POST",
+
+headers:{
+
+"Content-Type":"application/json"
+
+},
+
+body:JSON.stringify({
+
+district:district,
+
+crime_type:crime,
+
+date:date
+
+})
+
+});
+
+const result=await response.json();
+
+document.getElementById("riskValue").innerHTML=result.risk_level;
+
+document.getElementById("probability").innerHTML=result.probability+"%";
+
+document.getElementById("predictionDistrict").innerHTML=result.district;
+
+}
+
+catch(error){
+
+alert("Unable to connect to Prediction API");
+
+console.log(error);
+
+}
+
+});
+
+</script>
 
 </body>
 

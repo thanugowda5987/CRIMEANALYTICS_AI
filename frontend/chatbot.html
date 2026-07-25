@@ -3,112 +3,357 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>KSP Crime Analytics AI - Chatbot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+<title>KSP AI Crime Assistant</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<nav>
+<!-- ================= HEADER ================= -->
 
-    <div class="logo">
-        KSP Crime AI
-    </div>
+<header>
 
-    <div class="nav-links">
+<div class="logo-section">
 
-        <a href="dashboard.html">Dashboard</a>
+<img src="images/ksp-logo.png" alt="KSP Logo">
 
-        <a href="chatbot.html">Chatbot</a>
+<div class="logo-title">
 
-        <a href="prediction.html">Prediction</a>
+<h1 id="title">
 
-        <a href="hotspot.html">Hotspots</a>
+KSP AI Crime Assistant
 
-        <a href="login.html">Logout</a>
+</h1>
 
-    </div>
+<p id="subtitle">
 
-</nav>
+Intelligent Conversational Crime Analytics
+
+</p>
+
+</div>
+
+</div>
+
+<div>
+
+<button class="lang-btn" id="languageBtn">
+
+English
+
+</button>
+
+<a href="dashboard.html" class="login-btn">
+
+Dashboard
+
+</a>
+
+</div>
+
+</header>
+
+<!-- ================= CHATBOT ================= -->
+
+<section class="chatbot-section">
 
 <div class="container">
 
-    <h1 style="color:#0d47a1;text-align:center;">
+<div class="chat-container">
 
-        AI Crime Investigation Assistant
+<div class="chat-header">
 
-    </h1>
+<img src="images/ksp-logo.png">
 
-    <p style="text-align:center;margin-top:10px;color:gray;">
+<div>
 
-        Ask crime-related questions and receive AI-powered responses.
+<h2 id="chatHeading">
 
-    </p>
+Crime Analytics AI
+
+</h2>
+
+<p>
+
+Ask anything about Karnataka Crime Records
+
+</p>
 
 </div>
 
-<div class="chat-container">
+</div>
 
-    <div class="chat-header">
+<div
+class="chat-body"
+id="chatBox">
 
-        KSP Crime AI Assistant
+<div class="bot-message">
 
-    </div>
+👋 Welcome Officer.
 
-    <div
-        class="chat-box"
-        id="chatBox">
+I am your AI Crime Analytics Assistant.
 
-        <div class="message bot">
+How can I help you today?
 
-            Hello Officer 👮<br><br>
+</div>
 
-            I am your Crime Analytics AI Assistant.
+</div>
 
-            Ask me about crimes, FIRs, suspects,
-            predictions, hotspots or crime statistics.
+<div class="chat-footer">
+
+<input
+
+type="text"
+
+id="message"
+
+placeholder="Ask about crime records...">
+
+<button id="sendBtn">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+<button id="voiceBtn">
+
+🎤
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ==========================================
+        CHATBOT JAVASCRIPT
+========================================== -->
+
+<script>
+
+const chatBox = document.getElementById("chatBox");
+const messageInput = document.getElementById("message");
+const sendBtn = document.getElementById("sendBtn");
+const voiceBtn = document.getElementById("voiceBtn");
+const languageBtn = document.getElementById("languageBtn");
+
+let english = true;
+
+/*=========================================
+            LANGUAGE SWITCH
+=========================================*/
+
+languageBtn.addEventListener("click", () => {
+
+    if (english){
+
+        document.getElementById("title").innerHTML =
+        "ಕೆಎಸ್‌ಪಿ AI ಅಪರಾಧ ಸಹಾಯಕ";
+
+        document.getElementById("subtitle").innerHTML =
+        "ಬುದ್ಧಿವಂತ ಸಂವಾದಾತ್ಮಕ ಅಪರಾಧ ವಿಶ್ಲೇಷಣೆ";
+
+        document.getElementById("chatHeading").innerHTML =
+        "ಅಪರಾಧ ವಿಶ್ಲೇಷಣಾ AI";
+
+        messageInput.placeholder =
+        "ಅಪರಾಧದ ಬಗ್ಗೆ ಪ್ರಶ್ನೆ ಕೇಳಿ...";
+
+        languageBtn.innerHTML = "ಕನ್ನಡ";
+
+    }
+
+    else{
+
+        document.getElementById("title").innerHTML =
+        "KSP AI Crime Assistant";
+
+        document.getElementById("subtitle").innerHTML =
+        "Intelligent Conversational Crime Analytics";
+
+        document.getElementById("chatHeading").innerHTML =
+        "Crime Analytics AI";
+
+        messageInput.placeholder =
+        "Ask about crime records...";
+
+        languageBtn.innerHTML = "English";
+
+    }
+
+    english = !english;
+
+});
+
+/*=========================================
+            SEND MESSAGE
+=========================================*/
+
+async function sendMessage(){
+
+    const question = messageInput.value.trim();
+
+    if(question==="") return;
+
+    chatBox.innerHTML += `
+
+        <div class="user-message">
+
+            ${question}
 
         </div>
 
-    </div>
+    `;
 
-    <div class="chat-input">
+    messageInput.value="";
 
-        <input
-            type="text"
-            id="userInput"
-            placeholder="Type your question here...">
+    chatBox.scrollTop = chatBox.scrollHeight;
 
-        <button
-            onclick="sendMessage()">
+    try{
 
-            Send
+        const response = await fetch("http://127.0.0.1:5000/chat",{
 
-        </button>
+            method:"POST",
 
-        <button
-            onclick="clearChat()">
+            headers:{
+                "Content-Type":"application/json"
+            },
 
-            Clear
+            body:JSON.stringify({
 
-        </button>
+                message:question
 
-    </div>
+            })
+
+        });
+
+        const data = await response.json();
+
+        chatBox.innerHTML += `
+
+        <div class="bot-message">
+
+            ${data.reply}
+
+        </div>
+
+        `;
+
+    }
+
+    catch(error){
+
+        chatBox.innerHTML += `
+
+        <div class="bot-message">
+
+            ❌ Unable to connect to Flask Server.
+
+        </div>
+
+        `;
+
+    }
+
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+}
+
+sendBtn.onclick = sendMessage;
+
+messageInput.addEventListener("keypress",function(e){
+
+    if(e.key==="Enter"){
+
+        sendMessage();
+
+    }
+
+});
+
+/*=========================================
+        VOICE RECOGNITION
+=========================================*/
+
+if('webkitSpeechRecognition' in window){
+
+const recognition = new webkitSpeechRecognition();
+
+recognition.lang='en-IN';
+
+recognition.continuous=false;
+
+recognition.interimResults=false;
+
+voiceBtn.onclick=()=>{
+
+recognition.start();
+
+};
+
+recognition.onresult=(event)=>{
+
+messageInput.value=event.results[0][0].transcript;
+
+};
+
+}
+
+/*=========================================
+        DOWNLOAD CHAT
+=========================================*/
+
+function downloadChat(){
+
+let text=chatBox.innerText;
+
+let blob=new Blob([text],{type:"text/plain"});
+
+let a=document.createElement("a");
+
+a.href=URL.createObjectURL(blob);
+
+a.download="KSP_Chat_History.txt";
+
+a.click();
+
+}
+
+/*=========================================
+        CLEAR CHAT
+=========================================*/
+
+function clearChat(){
+
+chatBox.innerHTML=`
+
+<div class="bot-message">
+
+Hello Officer 👋
+
+Chat history cleared.
+
+How can I help you?
 
 </div>
 
-<footer>
+`;
 
-© 2026 KSP Crime Analytics AI Platform
+}
 
-</footer>
-
-<script src="js/chatbot.js"></script>
+</script>
 
 </body>
 
