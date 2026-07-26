@@ -1,0 +1,14 @@
+{
+  "app_name": "KSP AI Crime Analytics",
+  "dashboard": "Dashboard",
+  "ai_assistant": "AI Assistant",
+  "analytics": "Analytics",
+  "fir_search": "FIR Search",
+  "criminal_records": "Criminal Records",
+  "cases": "Cases",
+  "crime_hotspots": "Crime Hotspots",
+  "reports": "Reports",
+  "audit_logs": "Audit Logs",
+  "login": "Sign In",
+  "logout": "Logout"
+}
