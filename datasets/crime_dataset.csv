@@ -1,0 +1,1001 @@
+Crime_ID,Crime_Type,City,Area,Latitude,Longitude,Date,Victim_Age,Suspect_Age,Status
+1,Theft,Mangaluru,Bhagat Road,16.852422,76.03777,2026-03-19,51,50,Open
+2,Robbery,Shivamogga,Oza Road,17.537875,77.103589,2026-02-17,53,51,Closed
+3,Cyber Crime,Hubballi,Dada Path,17.802845,76.040576,2026-04-24,22,40,Under Investigation
+4,Fraud,Hubballi,Kalita Zila,15.033955,75.58463,2025-12-20,56,28,Under Investigation
+5,Drug Trafficking,Mangaluru,Dyal,15.989756,75.624563,2025-12-13,52,38,Closed
+6,Assault,Shivamogga,Karnik Nagar,12.325377,76.860354,2026-03-31,57,45,Under Investigation
+7,Drug Trafficking,Hubballi,Brahmbhatt Ganj,18.366744,76.905872,2025-10-19,57,30,Open
+8,Assault,Hubballi,Raghavan Zila,12.326783,75.358981,2026-03-22,53,39,Closed
+9,Assault,Belagavi,Saha,13.044997,77.628963,2026-05-05,69,52,Closed
+10,Robbery,Bengaluru,Krishna Street,13.211462,75.706343,2026-03-06,27,42,Closed
+11,Robbery,Shivamogga,Guha Street,13.565177,74.979954,2026-05-11,55,45,Under Investigation
+12,Murder,Hubballi,Nanda Chowk,14.609248,75.569099,2026-01-24,54,51,Open
+13,Assault,Belagavi,Balan Road,14.908295,77.907053,2026-06-18,52,39,Under Investigation
+14,Murder,Mysuru,Kapur Zila,15.31014,74.005916,2025-09-15,28,58,Open
+15,Theft,Hubballi,Reddy Chowk,16.984956,76.535853,2025-07-24,65,58,Closed
+16,Robbery,Belagavi,Khosla Chowk,17.244534,74.851256,2026-03-05,55,38,Under Investigation
+17,Theft,Hubballi,Gopal Zila,15.715493,78.222624,2026-06-15,27,48,Closed
+18,Drug Trafficking,Hubballi,Ramesh Path,15.958096,76.103085,2026-02-23,27,32,Under Investigation
+19,Theft,Bengaluru,Kata Road,16.976627,78.307025,2026-07-20,26,38,Under Investigation
+20,Cyber Crime,Mysuru,Saha Path,16.345215,77.093614,2025-12-04,21,43,Under Investigation
+21,Theft,Hubballi,Datta Marg,18.487007,78.123611,2025-11-25,23,19,Closed
+22,Robbery,Mysuru,Parikh Street,13.467391,78.055284,2025-09-19,50,22,Closed
+23,Robbery,Shivamogga,Toor Circle,14.889547,76.090571,2026-03-19,28,30,Under Investigation
+24,Kidnapping,Mangaluru,Chandran Zila,16.579954,74.558601,2026-04-28,53,37,Open
+25,Theft,Hubballi,Sood Chowk,12.122896,77.235794,2026-03-06,68,25,Closed
+26,Theft,Belagavi,Bhagat,16.880292,74.616323,2026-02-18,58,29,Closed
+27,Drug Trafficking,Mangaluru,Dass Path,14.694641,77.612058,2026-03-06,42,20,Under Investigation
+28,Murder,Hubballi,Kurian Marg,15.417338,76.596048,2026-02-26,28,28,Closed
+29,Drug Trafficking,Belagavi,Tara Chowk,13.115002,75.188702,2025-08-25,70,42,Under Investigation
+30,Robbery,Bengaluru,Agrawal Path,13.294326,77.341022,2026-02-21,52,58,Under Investigation
+31,Fraud,Mysuru,Konda,11.870812,74.228842,2026-04-14,27,59,Closed
+32,Drug Trafficking,Bengaluru,Anne Zila,12.276714,76.140121,2025-08-25,64,58,Open
+33,Murder,Mangaluru,Parekh Road,14.703332,77.073911,2026-02-21,18,44,Open
+34,Theft,Hubballi,Karnik Nagar,17.85145,77.29848,2025-12-10,35,19,Closed
+35,Theft,Hubballi,Oza Ganj,15.773455,77.701088,2026-03-11,52,18,Under Investigation
+36,Assault,Bengaluru,Prashad Ganj,17.230299,76.723006,2025-09-01,45,43,Open
+37,Theft,Mangaluru,Prabhu Street,17.690944,75.318275,2025-08-24,26,39,Under Investigation
+38,Murder,Hubballi,Golla Nagar,14.476866,75.733517,2025-12-03,23,24,Closed
+39,Cyber Crime,Mysuru,Raj Nagar,12.047083,74.875052,2025-08-29,53,55,Closed
+40,Cyber Crime,Mangaluru,Mangat Marg,13.617973,75.385358,2026-03-24,60,28,Closed
+41,Cyber Crime,Mysuru,Butala Road,12.201704,74.351463,2025-11-06,24,39,Closed
+42,Drug Trafficking,Belagavi,Hora Path,15.992272,78.321173,2025-07-31,54,31,Open
+43,Fraud,Bengaluru,Dube,15.458024,77.600435,2025-10-13,49,34,Under Investigation
+44,Robbery,Belagavi,Sampath Street,17.758068,77.948101,2026-07-13,64,31,Open
+45,Cyber Crime,Hubballi,Jaggi Circle,14.262961,75.216493,2026-02-23,22,51,Closed
+46,Theft,Belagavi,Dube,14.324919,76.256649,2025-08-27,61,60,Under Investigation
+47,Theft,Mysuru,Saxena Circle,16.964498,78.362766,2026-02-28,55,39,Under Investigation
+48,Cyber Crime,Hubballi,Hayer Marg,15.246962,76.588224,2026-06-04,18,51,Closed
+49,Theft,Belagavi,Kale Path,15.669194,77.456031,2026-04-11,67,55,Open
+50,Kidnapping,Bengaluru,Radhakrishnan Road,12.999549,76.471203,2026-04-13,29,43,Under Investigation
+51,Fraud,Belagavi,Zachariah,17.242819,77.418618,2025-09-25,70,55,Under Investigation
+52,Theft,Mysuru,Raghavan,15.313986,75.236468,2025-11-19,21,19,Closed
+53,Theft,Mangaluru,Nazareth,16.026793,74.076478,2025-09-02,38,24,Open
+54,Cyber Crime,Mangaluru,Mishra Chowk,15.202629,76.375829,2026-05-30,18,57,Under Investigation
+55,Kidnapping,Mysuru,Parsa Circle,13.977671,75.460838,2025-10-05,49,55,Under Investigation
+56,Murder,Shivamogga,Nagarajan Street,17.695045,75.631538,2026-02-11,26,25,Open
+57,Fraud,Belagavi,Nagarajan,17.88456,74.169354,2025-08-23,32,26,Closed
+58,Theft,Belagavi,Bhalla Ganj,15.268131,76.310703,2026-07-09,35,52,Under Investigation
+59,Assault,Hubballi,Vig Ganj,13.568111,74.995265,2025-11-24,35,56,Open
+60,Robbery,Shivamogga,Amble,16.735935,76.038349,2025-10-09,32,46,Open
+61,Drug Trafficking,Shivamogga,Sane Path,12.172418,76.400356,2025-12-07,42,42,Open
+62,Fraud,Bengaluru,Babu Nagar,14.291358,78.571846,2026-07-03,68,44,Under Investigation
+63,Assault,Bengaluru,Sekhon Zila,14.751243,77.645001,2025-10-06,60,49,Under Investigation
+64,Assault,Mysuru,Chada Chowk,15.613828,74.181199,2026-04-23,63,33,Under Investigation
+65,Theft,Belagavi,Prakash Nagar,12.6158,76.032323,2025-11-22,62,47,Open
+66,Theft,Bengaluru,Mall,14.38009,76.483742,2026-02-27,52,57,Closed
+67,Assault,Hubballi,Srinivasan Zila,13.760235,77.160933,2026-01-24,49,46,Under Investigation
+68,Drug Trafficking,Shivamogga,Korpal Street,17.530815,76.245809,2026-04-09,47,47,Closed
+69,Murder,Bengaluru,Kohli Ganj,12.741452,78.578762,2026-02-17,59,26,Under Investigation
+70,Drug Trafficking,Mysuru,Kalita,13.19681,77.23237,2025-11-27,63,28,Open
+71,Theft,Mysuru,Sant Nagar,17.56144,77.086277,2026-01-21,22,31,Closed
+72,Kidnapping,Belagavi,Mody Circle,14.311946,75.244764,2026-01-06,56,47,Open
+73,Drug Trafficking,Belagavi,Kant Circle,12.35951,75.908033,2025-10-29,37,29,Under Investigation
+74,Cyber Crime,Shivamogga,Shankar Ganj,16.299345,76.729581,2025-12-29,30,53,Under Investigation
+75,Robbery,Shivamogga,Kapur Nagar,12.847342,74.699088,2025-09-20,33,58,Under Investigation
+76,Murder,Belagavi,Tailor Zila,15.600462,78.190366,2026-05-02,58,23,Closed
+77,Murder,Bengaluru,Pant Path,14.823348,75.201603,2026-06-22,45,18,Open
+78,Cyber Crime,Bengaluru,Bora Circle,16.792608,77.065365,2026-05-13,59,21,Closed
+79,Theft,Belagavi,Prabhu Street,14.741625,74.460312,2026-03-18,57,18,Closed
+80,Assault,Bengaluru,Issac Marg,12.781399,74.716634,2025-10-13,22,40,Closed
+81,Cyber Crime,Bengaluru,Vyas Nagar,18.076385,77.950296,2026-02-10,70,23,Open
+82,Cyber Crime,Mangaluru,Tripathi Zila,14.780434,78.454706,2025-10-03,43,57,Closed
+83,Robbery,Bengaluru,Varughese Chowk,18.098626,74.604349,2026-05-13,19,57,Under Investigation
+84,Robbery,Hubballi,Ram Path,11.952962,74.260744,2025-12-31,54,30,Closed
+85,Murder,Bengaluru,Rattan Circle,11.832361,76.336615,2025-09-23,54,52,Open
+86,Robbery,Hubballi,Bora Ganj,15.652139,75.420878,2026-03-02,26,60,Under Investigation
+87,Cyber Crime,Belagavi,Apte Zila,16.613891,74.937199,2025-09-30,31,23,Open
+88,Fraud,Bengaluru,Korpal Zila,12.704501,77.541844,2026-05-31,36,32,Open
+89,Robbery,Bengaluru,Chad,15.320282,74.999133,2025-09-29,61,33,Open
+90,Kidnapping,Mangaluru,Palla Zila,13.748218,75.53368,2026-04-22,44,52,Closed
+91,Murder,Mysuru,Jaggi Path,12.106968,78.530265,2026-04-06,27,44,Closed
+92,Cyber Crime,Hubballi,Barad Circle,15.459151,76.607283,2025-12-31,41,33,Under Investigation
+93,Theft,Shivamogga,Pandit Chowk,15.795867,75.700029,2026-06-27,64,45,Closed
+94,Robbery,Hubballi,Nair Nagar,16.987315,78.328385,2026-04-07,33,27,Under Investigation
+95,Robbery,Shivamogga,Gade Marg,16.672685,76.46087,2025-08-06,63,28,Under Investigation
+96,Fraud,Hubballi,Mall Chowk,17.500308,75.142911,2026-02-21,39,46,Closed
+97,Cyber Crime,Mysuru,Kant Marg,16.403113,75.433632,2025-09-17,29,29,Under Investigation
+98,Kidnapping,Bengaluru,Agate Path,14.710197,75.5968,2026-02-09,51,26,Under Investigation
+99,Theft,Bengaluru,Borde,16.484629,76.986945,2025-08-13,48,41,Under Investigation
+100,Murder,Shivamogga,Sane Chowk,14.210201,77.283056,2025-10-23,34,59,Closed
+101,Murder,Mysuru,Bhatt Road,14.935363,74.844159,2026-01-26,51,19,Open
+102,Drug Trafficking,Bengaluru,Karan Path,13.79596,77.716219,2025-07-30,50,22,Open
+103,Kidnapping,Hubballi,Bhagat Ganj,18.473535,77.558361,2026-03-02,70,20,Open
+104,Robbery,Mangaluru,Ramesh Street,12.966258,78.330557,2026-06-22,45,39,Under Investigation
+105,Kidnapping,Shivamogga,Bahri Zila,13.996763,75.670951,2026-03-15,50,29,Closed
+106,Theft,Hubballi,Kala Chowk,16.157476,75.487702,2026-07-13,70,50,Open
+107,Cyber Crime,Hubballi,Vohra,14.329357,77.164259,2025-11-04,27,31,Open
+108,Kidnapping,Bengaluru,Bora Chowk,13.778926,74.602675,2026-04-21,67,33,Open
+109,Murder,Mysuru,Agarwal,12.355595,75.208388,2026-07-13,64,29,Closed
+110,Robbery,Mangaluru,Jhaveri Marg,16.419589,75.162626,2026-04-04,30,45,Closed
+111,Kidnapping,Bengaluru,Gopal Zila,13.694145,75.418889,2025-12-17,58,43,Under Investigation
+112,Fraud,Mysuru,Narang Zila,17.737716,77.512703,2025-12-27,58,48,Under Investigation
+113,Drug Trafficking,Mangaluru,Palla Ganj,14.824657,75.220655,2026-03-15,38,49,Open
+114,Kidnapping,Belagavi,Buch,17.205572,75.370353,2025-08-02,59,55,Open
+115,Theft,Mysuru,Jayaraman Marg,12.715586,75.687338,2026-03-05,67,57,Under Investigation
+116,Murder,Bengaluru,Dhaliwal Zila,15.835898,74.975774,2026-02-03,39,27,Under Investigation
+117,Assault,Mangaluru,Patla Street,18.2159,77.75509,2025-11-22,59,37,Closed
+118,Murder,Mangaluru,Dani Road,14.72682,75.003712,2026-05-25,44,28,Under Investigation
+119,Theft,Bengaluru,Shankar Path,14.002193,76.306948,2026-04-03,31,21,Under Investigation
+120,Theft,Belagavi,Dixit Ganj,12.208624,74.430635,2026-03-10,64,19,Open
+121,Assault,Belagavi,Sunder Street,18.000126,76.208509,2025-09-24,68,40,Closed
+122,Murder,Hubballi,Loyal Zila,14.28935,74.970358,2025-10-14,26,31,Open
+123,Drug Trafficking,Mysuru,Bala Path,15.966562,74.494989,2026-05-22,66,24,Closed
+124,Kidnapping,Belagavi,Vala,14.831084,76.677114,2026-01-06,52,56,Under Investigation
+125,Fraud,Bengaluru,Kapadia,16.639858,74.357962,2026-02-09,29,35,Open
+126,Murder,Mangaluru,Sidhu Road,12.0958,74.070031,2026-06-07,61,46,Under Investigation
+127,Assault,Mysuru,Pau Nagar,13.762447,77.916958,2026-01-06,68,34,Open
+128,Cyber Crime,Belagavi,Lad Street,12.851632,75.735824,2026-06-04,25,33,Closed
+129,Kidnapping,Mysuru,Tailor Circle,13.788306,76.309652,2026-02-12,22,27,Closed
+130,Theft,Belagavi,Bhasin Marg,16.052928,77.455164,2026-04-02,45,36,Closed
+131,Robbery,Bengaluru,Sami Marg,15.317682,77.007452,2026-01-19,32,32,Closed
+132,Theft,Bengaluru,Madan Path,16.525984,76.784426,2025-11-07,57,37,Under Investigation
+133,Fraud,Belagavi,Bir Road,13.918519,77.521529,2025-08-18,23,48,Open
+134,Theft,Belagavi,Seshadri Circle,17.094482,77.937017,2025-09-12,20,43,Closed
+135,Robbery,Mysuru,Sabharwal Road,18.229867,77.05114,2025-11-13,60,52,Under Investigation
+136,Theft,Shivamogga,Bassi Road,13.750968,76.294664,2025-12-21,43,47,Open
+137,Theft,Bengaluru,Modi Street,11.878543,75.394168,2025-10-12,45,23,Open
+138,Drug Trafficking,Bengaluru,Ratta Circle,12.8783,76.877214,2025-09-17,41,41,Under Investigation
+139,Cyber Crime,Hubballi,Gulati Circle,18.447789,76.227949,2026-03-26,31,45,Closed
+140,Theft,Mysuru,Radhakrishnan Ganj,17.622947,75.941141,2026-05-15,43,20,Under Investigation
+141,Assault,Mysuru,Dada Chowk,12.982136,74.079369,2026-05-02,55,52,Open
+142,Cyber Crime,Shivamogga,Sachar Nagar,16.408144,74.821511,2026-03-09,53,20,Closed
+143,Murder,Hubballi,Sura Ganj,16.007591,77.461613,2026-02-27,52,44,Open
+144,Fraud,Belagavi,Tripathi Street,12.759151,75.354326,2026-05-11,26,40,Under Investigation
+145,Kidnapping,Shivamogga,Kannan Path,12.699284,76.433512,2026-03-01,29,51,Closed
+146,Theft,Belagavi,Bhargava,14.871992,76.110471,2025-09-29,38,26,Open
+147,Fraud,Mysuru,Grewal,13.156091,77.793029,2025-10-22,29,30,Under Investigation
+148,Theft,Mangaluru,Grewal Road,13.66167,76.012829,2025-08-19,37,23,Closed
+149,Drug Trafficking,Bengaluru,Gupta Chowk,16.210199,75.454939,2025-08-10,50,31,Open
+150,Fraud,Mysuru,Parsa Ganj,14.661971,74.779426,2025-09-05,64,55,Under Investigation
+151,Theft,Shivamogga,Varkey Street,18.333678,75.385209,2026-01-30,46,36,Open
+152,Fraud,Mysuru,Shanker Ganj,14.745424,74.220509,2026-07-21,65,30,Closed
+153,Assault,Mysuru,Rao Zila,15.301801,76.733571,2026-04-19,53,45,Closed
+154,Assault,Hubballi,Trivedi Ganj,17.377482,74.656409,2026-01-19,34,30,Open
+155,Theft,Bengaluru,Kadakia Circle,15.502263,78.511617,2026-04-20,55,28,Under Investigation
+156,Assault,Mangaluru,Mahajan Nagar,13.000305,75.408997,2026-01-24,44,23,Open
+157,Assault,Hubballi,Sandhu Zila,15.745486,78.496643,2026-01-22,58,32,Under Investigation
+158,Assault,Bengaluru,Kalla Zila,17.835467,75.434,2026-03-08,42,48,Under Investigation
+159,Cyber Crime,Hubballi,Deol Street,16.006261,76.25478,2026-06-06,63,58,Open
+160,Theft,Mangaluru,Mitra Zila,15.550316,74.721966,2026-04-25,33,34,Closed
+161,Drug Trafficking,Mangaluru,Thaker Chowk,12.040847,76.014277,2026-04-10,45,57,Under Investigation
+162,Robbery,Mysuru,Mahal Marg,12.944843,75.636743,2025-11-07,32,47,Open
+163,Fraud,Bengaluru,Srinivasan Street,13.049367,78.003863,2025-10-28,33,27,Under Investigation
+164,Robbery,Hubballi,Mall Ganj,12.185598,74.263274,2025-10-19,66,45,Closed
+165,Cyber Crime,Belagavi,Thakur,14.826063,76.861757,2025-07-27,45,37,Open
+166,Assault,Hubballi,Bava Ganj,17.666608,75.114819,2025-12-19,52,59,Open
+167,Murder,Mysuru,Dhar Path,17.296827,77.869512,2025-09-19,44,33,Open
+168,Assault,Hubballi,Choudhary Marg,17.901611,75.4655,2025-10-24,26,24,Closed
+169,Robbery,Mysuru,Bora Zila,17.072543,74.276203,2025-09-15,51,37,Closed
+170,Drug Trafficking,Hubballi,Vyas Circle,15.675732,76.134923,2025-10-18,22,32,Open
+171,Drug Trafficking,Bengaluru,Sarraf Road,12.584997,77.521388,2025-12-06,55,21,Open
+172,Assault,Mangaluru,Dara Nagar,14.953066,78.272104,2025-09-09,36,52,Under Investigation
+173,Theft,Mysuru,Kalla Street,15.48835,74.33099,2025-09-27,48,60,Open
+174,Murder,Hubballi,Sandal Street,12.981324,78.46258,2026-05-06,25,27,Closed
+175,Murder,Bengaluru,Ramanathan Street,13.24442,78.572973,2025-10-19,25,34,Open
+176,Robbery,Mangaluru,Bera Path,15.392509,75.994091,2026-07-03,27,52,Open
+177,Fraud,Mysuru,Baral Circle,17.866468,77.891816,2025-11-03,33,38,Closed
+178,Robbery,Mangaluru,Khatri Road,14.44073,78.442534,2026-01-20,65,40,Open
+179,Drug Trafficking,Bengaluru,Hari,15.398505,74.039774,2026-02-14,48,45,Open
+180,Cyber Crime,Mysuru,Prabhu Circle,12.953862,76.534875,2026-06-15,53,50,Open
+181,Theft,Shivamogga,Dugar Chowk,15.220807,77.123099,2025-07-27,61,39,Open
+182,Cyber Crime,Mysuru,Gola,15.371941,75.467706,2026-03-03,29,31,Closed
+183,Murder,Belagavi,Varkey Nagar,17.209356,74.844896,2026-05-25,60,27,Under Investigation
+184,Fraud,Mangaluru,Menon Nagar,18.432212,76.525096,2026-07-01,60,47,Open
+185,Kidnapping,Belagavi,Naik Street,16.224709,77.616889,2026-07-11,34,49,Open
+186,Robbery,Mysuru,Sachdev Street,16.649765,74.371742,2025-11-15,46,18,Under Investigation
+187,Cyber Crime,Mangaluru,Virk,12.737604,76.053735,2026-02-11,19,41,Open
+188,Theft,Mangaluru,Dayal Nagar,15.67561,74.403212,2025-08-22,19,54,Open
+189,Cyber Crime,Hubballi,Das Road,13.421532,74.463001,2025-09-04,34,24,Open
+190,Theft,Shivamogga,Dayal Ganj,16.641278,75.091199,2025-10-07,62,54,Closed
+191,Murder,Belagavi,Mohan Zila,14.442666,78.296122,2026-01-05,41,50,Open
+192,Robbery,Belagavi,Khatri Chowk,17.594944,77.281084,2025-09-07,60,58,Under Investigation
+193,Murder,Hubballi,Kar Street,18.371289,78.056191,2026-05-17,55,52,Closed
+194,Assault,Bengaluru,Agrawal Marg,12.743384,75.53735,2026-04-10,60,22,Closed
+195,Robbery,Mangaluru,Arya Circle,16.766443,75.309653,2026-07-18,64,59,Closed
+196,Kidnapping,Mangaluru,Pai Zila,12.613368,76.573328,2026-01-29,54,41,Closed
+197,Drug Trafficking,Mangaluru,Munshi Chowk,14.582209,74.984131,2026-02-20,57,27,Closed
+198,Murder,Mangaluru,Borra Circle,12.855129,76.481377,2025-10-31,44,19,Closed
+199,Drug Trafficking,Bengaluru,Bandi,15.131358,78.488157,2026-02-13,34,41,Closed
+200,Fraud,Bengaluru,Deep Ganj,17.815684,77.38961,2025-09-06,61,50,Under Investigation
+201,Robbery,Bengaluru,Warrior Nagar,13.898697,74.607236,2026-07-03,53,24,Closed
+202,Murder,Mysuru,Kaul Chowk,14.898815,78.232783,2026-06-24,57,60,Closed
+203,Fraud,Hubballi,Gara Marg,14.815909,78.037957,2026-06-23,60,56,Open
+204,Robbery,Bengaluru,Chadha Nagar,14.641319,77.247201,2025-11-23,32,57,Open
+205,Kidnapping,Hubballi,Loyal Chowk,13.702644,74.162777,2025-12-29,56,27,Under Investigation
+206,Drug Trafficking,Hubballi,Loke Zila,13.045527,74.761433,2025-12-10,44,55,Open
+207,Assault,Bengaluru,Shah,17.685948,76.625137,2026-03-07,19,46,Open
+208,Drug Trafficking,Belagavi,Dyal Ganj,15.936544,74.959459,2025-07-30,43,21,Open
+209,Cyber Crime,Shivamogga,Krishna Circle,13.53302,74.589609,2025-10-04,43,55,Closed
+210,Assault,Mangaluru,Rau Zila,14.871727,77.987244,2026-01-18,70,44,Closed
+211,Theft,Shivamogga,Kumer Path,12.81552,77.271688,2025-10-03,63,21,Open
+212,Fraud,Shivamogga,Kata Circle,14.04049,76.515216,2026-03-18,46,31,Open
+213,Kidnapping,Belagavi,Vyas Nagar,15.774284,77.687281,2026-01-26,66,56,Open
+214,Murder,Mangaluru,Natarajan Street,18.289915,74.835759,2025-09-26,27,51,Closed
+215,Drug Trafficking,Mysuru,Nath Path,13.825875,78.517626,2026-04-11,22,35,Under Investigation
+216,Robbery,Mysuru,Gour Zila,13.229653,78.41486,2025-08-02,42,54,Open
+217,Robbery,Mysuru,Virk,15.520894,78.070484,2026-07-07,38,59,Under Investigation
+218,Drug Trafficking,Mysuru,Gour Chowk,15.324221,75.417725,2025-09-08,27,48,Closed
+219,Murder,Bengaluru,Biswas Ganj,16.088969,76.020573,2026-02-09,54,48,Under Investigation
+220,Fraud,Hubballi,Boase,16.62749,77.892608,2026-03-08,32,38,Closed
+221,Fraud,Belagavi,Bava Zila,13.858732,76.311319,2026-04-23,63,32,Closed
+222,Drug Trafficking,Bengaluru,Memon Zila,15.542691,76.925974,2026-02-04,45,25,Closed
+223,Robbery,Hubballi,Kala Path,16.853847,76.633069,2026-06-12,41,48,Open
+224,Drug Trafficking,Bengaluru,Parsa Zila,12.893585,78.093211,2025-10-14,42,38,Open
+225,Kidnapping,Bengaluru,Saraf Zila,12.392619,75.489806,2026-04-10,28,20,Open
+226,Assault,Mysuru,Tandon Road,17.098252,76.685204,2026-07-07,58,58,Under Investigation
+227,Murder,Bengaluru,Majumdar Ganj,16.100225,76.283086,2026-03-15,44,28,Under Investigation
+228,Murder,Belagavi,Ghosh Chowk,18.327139,74.387184,2026-06-05,49,44,Under Investigation
+229,Theft,Mysuru,Mutti Street,18.291207,74.971246,2026-01-10,67,31,Closed
+230,Kidnapping,Belagavi,Chanda Street,18.231991,78.513358,2025-09-23,63,38,Under Investigation
+231,Fraud,Mysuru,Kothari,15.252062,78.185717,2025-11-07,32,38,Open
+232,Cyber Crime,Mangaluru,Pant Street,15.641582,77.566627,2026-03-14,51,55,Under Investigation
+233,Murder,Shivamogga,Kashyap Path,15.949489,76.811371,2025-09-16,28,44,Closed
+234,Kidnapping,Belagavi,Desai Circle,12.14175,74.075271,2025-09-26,19,31,Under Investigation
+235,Theft,Bengaluru,Guha Road,17.430405,75.283987,2026-07-11,70,53,Closed
+236,Theft,Mysuru,Menon Street,14.633598,75.139214,2025-11-18,43,49,Open
+237,Assault,Mysuru,Bhatnagar,12.429703,74.339173,2025-12-17,54,32,Under Investigation
+238,Assault,Mangaluru,Kuruvilla Chowk,14.678912,74.997993,2026-06-01,27,54,Under Investigation
+239,Theft,Mangaluru,Pandya Street,14.769137,78.201091,2026-06-29,24,51,Open
+240,Kidnapping,Shivamogga,Khurana Path,15.823447,78.243371,2025-12-22,45,42,Closed
+241,Theft,Mysuru,Comar Path,14.643973,78.586113,2026-06-25,35,18,Closed
+242,Kidnapping,Belagavi,Setty Zila,13.10299,78.542493,2026-07-02,40,26,Closed
+243,Theft,Shivamogga,Suresh Road,16.459231,77.238645,2025-12-20,25,20,Open
+244,Assault,Belagavi,Thakur Path,16.284304,77.895882,2025-09-23,46,18,Open
+245,Robbery,Bengaluru,Ganesh Nagar,13.655601,77.042698,2025-12-31,43,45,Under Investigation
+246,Murder,Mangaluru,Sundaram Circle,16.105866,74.793745,2025-11-07,20,45,Under Investigation
+247,Murder,Mangaluru,Tank Ganj,18.450259,76.663955,2025-12-28,39,50,Open
+248,Robbery,Shivamogga,Parikh Street,15.909965,74.899675,2025-09-11,19,46,Open
+249,Theft,Belagavi,Parekh Nagar,14.638632,76.167117,2025-08-26,62,29,Closed
+250,Robbery,Bengaluru,Mital Circle,12.516021,78.091092,2026-02-20,64,45,Closed
+251,Cyber Crime,Hubballi,Prabhakar Road,16.176229,76.514196,2025-12-29,54,60,Open
+252,Assault,Hubballi,Ravi Ganj,14.167532,75.771483,2025-12-06,62,47,Closed
+253,Theft,Belagavi,Nanda Zila,13.15664,77.799128,2025-10-05,21,60,Open
+254,Fraud,Mysuru,Mittal Path,18.342185,77.887727,2026-01-03,58,37,Closed
+255,Cyber Crime,Belagavi,Golla Zila,15.314394,75.886873,2025-11-27,32,32,Closed
+256,Murder,Mangaluru,Bhagat Marg,12.802419,74.474348,2025-08-07,34,24,Under Investigation
+257,Cyber Crime,Hubballi,Gade Chowk,16.688991,74.038587,2025-11-21,50,32,Under Investigation
+258,Kidnapping,Hubballi,Sen Path,12.136687,75.63833,2025-12-18,57,42,Closed
+259,Cyber Crime,Belagavi,Kulkarni Nagar,13.919229,78.008638,2026-02-03,62,32,Open
+260,Cyber Crime,Belagavi,Wali Zila,15.181351,78.126788,2026-01-14,38,27,Closed
+261,Fraud,Hubballi,Sule Circle,14.669607,77.263097,2025-10-15,41,33,Closed
+262,Kidnapping,Bengaluru,Buch Street,13.693866,76.456421,2026-07-08,54,44,Open
+263,Murder,Mysuru,Bajaj Nagar,16.880086,75.759526,2026-07-01,45,29,Under Investigation
+264,Drug Trafficking,Belagavi,Barman Path,18.121204,78.192935,2026-05-14,27,42,Open
+265,Fraud,Bengaluru,Sachar Ganj,17.979367,77.65834,2025-09-27,28,23,Open
+266,Fraud,Shivamogga,Aurora Marg,17.165107,77.337685,2026-03-03,41,42,Closed
+267,Cyber Crime,Bengaluru,Sachdev Path,17.699246,74.094493,2026-05-11,53,37,Closed
+268,Fraud,Bengaluru,Kibe Path,18.285487,78.477536,2025-11-26,27,43,Open
+269,Robbery,Shivamogga,Nanda Marg,14.237415,74.177237,2026-02-15,48,43,Under Investigation
+270,Drug Trafficking,Shivamogga,Gera Zila,15.924778,78.494357,2025-08-24,65,32,Under Investigation
+271,Drug Trafficking,Mysuru,Swamy Chowk,16.494094,76.332006,2025-11-29,45,58,Closed
+272,Theft,Hubballi,Thaker Street,15.409895,74.529162,2025-10-05,19,44,Under Investigation
+273,Assault,Belagavi,Maharaj,18.365761,74.376594,2026-03-31,18,27,Open
+274,Fraud,Shivamogga,Kulkarni Ganj,12.716731,77.185768,2026-04-21,29,26,Open
+275,Assault,Shivamogga,Mitter Nagar,13.660347,78.41832,2025-08-30,53,24,Open
+276,Fraud,Bengaluru,Behl Road,13.533919,75.062528,2025-12-17,44,51,Closed
+277,Theft,Belagavi,Rana Circle,12.442588,78.227551,2025-09-03,22,53,Open
+278,Theft,Bengaluru,Sarna Road,16.31813,76.556042,2026-05-15,19,47,Closed
+279,Cyber Crime,Shivamogga,Devi Chowk,11.88349,76.755052,2025-11-22,56,18,Under Investigation
+280,Robbery,Mangaluru,Raju,17.08189,77.611113,2026-01-18,59,45,Closed
+281,Fraud,Hubballi,Gill Marg,17.629329,78.379235,2025-08-30,55,46,Under Investigation
+282,Robbery,Shivamogga,Sha Road,16.160428,76.925989,2025-09-12,31,51,Closed
+283,Fraud,Shivamogga,Mann Path,14.080253,74.954701,2025-10-13,22,29,Under Investigation
+284,Cyber Crime,Bengaluru,Kari Nagar,17.200144,77.649824,2026-05-05,19,27,Open
+285,Theft,Shivamogga,Dalal Circle,17.321,75.548138,2026-07-08,30,50,Under Investigation
+286,Theft,Mangaluru,Nori Road,13.769956,74.359215,2026-07-14,49,36,Under Investigation
+287,Assault,Mysuru,Ratta Street,15.293544,78.173947,2026-03-28,27,46,Open
+288,Fraud,Mangaluru,Handa Nagar,12.152808,74.83435,2025-12-25,30,20,Closed
+289,Cyber Crime,Shivamogga,Doshi Circle,15.831148,75.796124,2026-01-25,33,31,Closed
+290,Fraud,Mangaluru,Balasubramanian Nagar,15.98487,75.231476,2026-06-12,22,19,Under Investigation
+291,Assault,Mysuru,Yadav Zila,12.726205,78.294063,2026-05-10,66,31,Closed
+292,Fraud,Shivamogga,Maharaj Zila,12.040704,74.192956,2025-11-20,36,56,Closed
+293,Kidnapping,Mysuru,Chaudhry Chowk,15.564111,77.184632,2026-01-30,36,42,Open
+294,Drug Trafficking,Mysuru,Sha,13.983445,74.552406,2025-12-19,68,22,Closed
+295,Theft,Hubballi,Nayar Road,15.685193,75.676602,2026-05-20,37,46,Closed
+296,Drug Trafficking,Bengaluru,Kant Nagar,11.889129,77.377642,2026-05-05,43,29,Under Investigation
+297,Murder,Mangaluru,Pillay Street,14.594371,77.529027,2026-04-15,49,38,Closed
+298,Drug Trafficking,Shivamogga,Prabhakar Ganj,12.586973,76.11447,2025-10-07,69,55,Under Investigation
+299,Cyber Crime,Mangaluru,Dara,16.673513,74.719022,2026-05-05,30,30,Under Investigation
+300,Murder,Shivamogga,Chowdhury Chowk,17.962002,75.743814,2026-07-18,55,24,Open
+301,Murder,Shivamogga,Chandra Ganj,15.095016,77.322494,2025-08-12,63,40,Under Investigation
+302,Theft,Bengaluru,Goda Circle,13.866134,74.319826,2025-08-05,21,18,Open
+303,Cyber Crime,Belagavi,Balan Road,13.64029,76.583118,2025-12-27,47,43,Open
+304,Murder,Mangaluru,Cherian Chowk,13.829879,77.495167,2025-08-07,22,36,Open
+305,Murder,Hubballi,Menon,14.669787,77.232829,2026-02-13,47,35,Open
+306,Robbery,Mangaluru,Lanka Marg,15.156585,77.239503,2025-12-20,42,33,Under Investigation
+307,Drug Trafficking,Bengaluru,Babu Street,12.95134,78.571033,2026-04-30,57,46,Under Investigation
+308,Theft,Mysuru,Atwal Circle,16.13527,74.921734,2026-06-30,25,27,Under Investigation
+309,Assault,Shivamogga,Sachdeva Zila,13.016785,76.320456,2026-06-09,50,59,Under Investigation
+310,Cyber Crime,Belagavi,Yohannan Marg,15.949594,75.387427,2026-01-02,50,31,Closed
+311,Theft,Belagavi,Acharya Marg,17.937701,75.510784,2026-06-19,22,35,Open
+312,Theft,Mysuru,Hans,14.988144,78.481304,2026-05-01,46,40,Closed
+313,Assault,Hubballi,Desai Circle,13.443889,78.145527,2025-11-28,69,27,Closed
+314,Murder,Hubballi,Narang Chowk,18.051356,74.183154,2025-11-18,29,43,Under Investigation
+315,Fraud,Mysuru,Hayer Zila,13.355848,78.035748,2025-10-28,24,34,Open
+316,Fraud,Shivamogga,Korpal Nagar,17.305043,75.296836,2026-05-01,54,40,Closed
+317,Murder,Mangaluru,Barad,12.780905,74.503895,2025-11-20,40,59,Under Investigation
+318,Murder,Belagavi,Bava Circle,15.030548,77.737365,2026-03-16,32,53,Under Investigation
+319,Fraud,Mysuru,Pai Zila,17.861323,75.324752,2025-11-28,31,41,Open
+320,Kidnapping,Bengaluru,Sunder Marg,16.654621,76.467661,2026-07-06,56,33,Under Investigation
+321,Fraud,Shivamogga,Kaur Zila,18.416379,74.070739,2025-08-08,40,52,Under Investigation
+322,Drug Trafficking,Hubballi,Murthy Nagar,16.998244,78.390036,2026-07-14,31,59,Closed
+323,Robbery,Mysuru,Agrawal Street,17.338286,77.402151,2026-05-30,34,29,Under Investigation
+324,Cyber Crime,Mysuru,Varty Path,16.612365,75.248571,2025-11-30,46,39,Closed
+325,Assault,Hubballi,Bal Zila,18.264655,77.803271,2026-05-24,51,25,Open
+326,Theft,Mysuru,Yogi Circle,18.489071,76.647566,2026-03-20,67,50,Closed
+327,Theft,Shivamogga,Saha Road,12.185804,77.635221,2026-07-23,47,49,Closed
+328,Murder,Belagavi,Konda Zila,17.361097,77.76738,2026-03-13,30,56,Open
+329,Murder,Mysuru,Mitra Chowk,12.91583,76.694328,2026-05-02,65,59,Open
+330,Robbery,Mysuru,Sundaram Road,17.619608,75.945128,2026-02-27,60,25,Under Investigation
+331,Assault,Belagavi,Saini Road,11.81564,76.640296,2026-04-11,69,20,Closed
+332,Assault,Mangaluru,Chowdhury Zila,12.170212,76.860997,2025-09-03,25,19,Under Investigation
+333,Assault,Mysuru,Solanki Chowk,12.058138,75.732175,2026-04-23,70,27,Under Investigation
+334,Kidnapping,Mangaluru,Choudhury Ganj,17.438893,78.098903,2026-01-28,33,21,Closed
+335,Cyber Crime,Hubballi,Wali Path,17.002672,78.05144,2025-09-04,38,53,Open
+336,Kidnapping,Mangaluru,Dugal,14.75145,75.450866,2025-08-03,49,37,Open
+337,Theft,Belagavi,Dutta Path,16.591706,78.181452,2025-08-27,36,45,Closed
+338,Cyber Crime,Bengaluru,Konda Path,16.398594,74.187535,2026-01-11,39,27,Closed
+339,Cyber Crime,Bengaluru,Ramesh Road,12.81594,77.06405,2025-10-19,41,20,Open
+340,Robbery,Hubballi,Tiwari Path,12.974831,74.685506,2026-06-15,42,31,Open
+341,Fraud,Belagavi,Rai Road,18.041108,75.813388,2025-12-09,64,30,Open
+342,Cyber Crime,Mangaluru,Johal Nagar,14.622179,78.51997,2026-01-05,38,30,Closed
+343,Cyber Crime,Mangaluru,Srinivas Street,15.893741,76.704752,2025-08-12,41,52,Under Investigation
+344,Cyber Crime,Bengaluru,Zachariah Path,13.13887,76.334888,2025-12-30,36,31,Closed
+345,Fraud,Shivamogga,Chowdhury Street,17.988318,75.241154,2025-10-03,54,53,Closed
+346,Theft,Shivamogga,Rau Zila,14.645913,75.136775,2026-03-07,41,35,Closed
+347,Theft,Hubballi,Bumb Zila,16.884601,74.225206,2025-10-09,21,20,Closed
+348,Drug Trafficking,Mangaluru,Chatterjee Chowk,13.829892,75.757551,2025-12-12,55,38,Open
+349,Cyber Crime,Bengaluru,Bhat Marg,18.284236,74.115856,2026-05-24,70,47,Under Investigation
+350,Robbery,Mysuru,Dada Circle,12.170794,74.861138,2025-09-24,37,31,Under Investigation
+351,Kidnapping,Mysuru,Batra Marg,18.438514,76.502942,2026-06-26,59,34,Under Investigation
+352,Drug Trafficking,Shivamogga,Nazareth Nagar,13.942409,74.535413,2026-04-12,50,58,Under Investigation
+353,Robbery,Bengaluru,Dalal Marg,13.622038,76.718163,2026-03-14,62,40,Under Investigation
+354,Robbery,Bengaluru,Swamy Marg,13.883927,74.350364,2026-06-23,65,48,Under Investigation
+355,Fraud,Bengaluru,Shroff Chowk,12.459981,77.342973,2026-06-23,40,29,Under Investigation
+356,Murder,Bengaluru,Nath Circle,14.220509,75.745226,2026-05-17,63,47,Under Investigation
+357,Murder,Bengaluru,Vasa Chowk,15.526577,75.306665,2025-12-14,69,30,Open
+358,Fraud,Shivamogga,Chaudhary Road,14.587169,77.550482,2025-11-08,57,59,Open
+359,Fraud,Shivamogga,Nori Path,13.510616,78.507604,2025-11-24,36,46,Open
+360,Assault,Mangaluru,Saran Ganj,11.931606,78.483781,2025-11-21,69,56,Under Investigation
+361,Murder,Belagavi,Kota Road,15.316805,76.120954,2025-11-19,61,57,Closed
+362,Murder,Shivamogga,Hans Marg,13.385616,74.688444,2025-08-22,24,23,Open
+363,Murder,Hubballi,Wagle,17.179506,77.382906,2026-04-15,37,24,Under Investigation
+364,Murder,Belagavi,Om Road,16.368024,75.104457,2025-07-27,61,52,Open
+365,Theft,Mysuru,Chowdhury Chowk,12.86244,76.698511,2025-10-08,21,18,Closed
+366,Drug Trafficking,Mangaluru,Baral Marg,15.332416,74.509436,2026-03-20,29,35,Open
+367,Kidnapping,Hubballi,Pandit Path,11.961692,76.02764,2025-10-20,54,39,Closed
+368,Murder,Mysuru,Mangat Street,13.163163,74.951064,2026-02-09,28,35,Closed
+369,Murder,Mysuru,Gera Marg,14.169565,77.469692,2026-02-04,24,52,Open
+370,Murder,Bengaluru,Contractor Nagar,15.451463,75.152825,2026-03-21,35,21,Closed
+371,Fraud,Bengaluru,Saraf Path,15.832352,78.473883,2026-07-17,56,56,Closed
+372,Cyber Crime,Mysuru,Dewan Path,13.745619,76.772816,2025-10-03,57,47,Open
+373,Theft,Bengaluru,Verma,11.84166,77.849389,2026-01-03,24,54,Open
+374,Fraud,Shivamogga,Ram Nagar,14.53239,78.35567,2025-08-21,65,32,Under Investigation
+375,Murder,Mangaluru,Brar Ganj,15.762151,74.677054,2026-06-27,50,35,Open
+376,Cyber Crime,Mysuru,Dixit Marg,18.363582,77.111346,2025-11-15,43,42,Closed
+377,Cyber Crime,Bengaluru,Sharma Street,13.750452,75.556047,2026-01-26,64,34,Open
+378,Assault,Mysuru,Morar,16.14006,78.17245,2025-11-17,54,45,Closed
+379,Robbery,Mysuru,Edwin Nagar,15.235639,77.794711,2026-05-04,52,24,Closed
+380,Fraud,Mysuru,More Nagar,12.620299,77.82068,2026-01-10,24,60,Open
+381,Kidnapping,Bengaluru,Mandal Nagar,14.00604,77.697923,2026-02-22,25,41,Open
+382,Theft,Belagavi,Kanda Circle,12.869893,77.811003,2026-02-23,54,24,Open
+383,Assault,Belagavi,Lala Circle,15.610055,76.284821,2025-10-28,45,36,Closed
+384,Cyber Crime,Mangaluru,Chokshi Street,15.531695,78.257632,2025-10-18,23,26,Open
+385,Assault,Belagavi,Kothari Path,12.290632,75.5957,2025-12-05,36,31,Under Investigation
+386,Assault,Mysuru,Shah Street,12.762284,78.019863,2025-09-27,32,23,Closed
+387,Robbery,Mangaluru,Pradhan Circle,14.336061,77.298226,2026-01-26,43,44,Under Investigation
+388,Kidnapping,Belagavi,Sethi Chowk,13.706758,75.008162,2026-04-28,39,41,Closed
+389,Murder,Bengaluru,Ramakrishnan Road,17.225256,74.841081,2025-10-20,60,51,Closed
+390,Murder,Mysuru,Bahri Zila,13.504937,77.722168,2025-10-14,65,51,Open
+391,Drug Trafficking,Bengaluru,Raghavan Street,17.89872,75.53428,2025-09-03,70,43,Open
+392,Theft,Bengaluru,Murty Nagar,11.89718,77.118911,2025-09-01,30,42,Open
+393,Murder,Hubballi,Ravi Ganj,12.188173,77.831065,2026-07-02,44,57,Open
+394,Murder,Mangaluru,Tella Road,16.171807,74.407098,2026-01-17,36,35,Closed
+395,Kidnapping,Shivamogga,Mital Ganj,17.099346,76.792203,2026-02-22,28,54,Open
+396,Cyber Crime,Mysuru,Shanker Road,18.072339,77.371519,2026-04-28,44,24,Under Investigation
+397,Cyber Crime,Hubballi,Raval Ganj,16.440243,77.285377,2026-03-08,40,34,Closed
+398,Fraud,Mysuru,Badami Path,17.109488,75.041585,2025-07-27,63,25,Closed
+399,Assault,Shivamogga,Sahota Circle,12.441169,77.404693,2026-06-10,63,45,Open
+400,Theft,Bengaluru,Bassi Chowk,18.235691,77.427528,2026-07-10,57,35,Open
+401,Robbery,Mysuru,Dhar Circle,17.780632,77.564091,2026-06-01,54,23,Closed
+402,Murder,Shivamogga,Mohanty Zila,13.27978,75.451065,2025-08-14,32,25,Closed
+403,Fraud,Mangaluru,Sharaf Path,12.169159,75.721383,2026-05-22,69,38,Open
+404,Assault,Belagavi,Jain Street,16.490448,76.626525,2026-04-15,31,43,Open
+405,Drug Trafficking,Hubballi,Sarraf Road,12.979281,77.354271,2025-07-24,43,55,Open
+406,Assault,Hubballi,Oommen Zila,15.519456,77.718279,2026-02-21,18,20,Open
+407,Murder,Mangaluru,Chaudry Marg,12.926755,77.546396,2026-04-07,69,51,Under Investigation
+408,Robbery,Hubballi,Sani Chowk,15.512241,77.459687,2025-08-23,33,40,Under Investigation
+409,Kidnapping,Mysuru,Konda Nagar,18.04844,75.479541,2026-05-23,29,55,Under Investigation
+410,Kidnapping,Bengaluru,Varghese Marg,15.318357,75.745057,2026-04-04,25,44,Closed
+411,Kidnapping,Hubballi,Edwin Zila,17.669382,74.193009,2025-09-24,48,43,Closed
+412,Cyber Crime,Mysuru,Bhakta Chowk,14.025831,78.17943,2026-04-18,58,56,Under Investigation
+413,Murder,Bengaluru,Ramaswamy Path,16.531321,75.423884,2026-05-02,57,51,Open
+414,Theft,Hubballi,Saraf Zila,17.755333,75.50289,2025-10-03,45,46,Closed
+415,Cyber Crime,Mangaluru,Prakash Road,17.516235,78.231937,2025-09-11,60,48,Closed
+416,Kidnapping,Mangaluru,Gopal Circle,13.251839,76.053789,2025-09-08,53,28,Under Investigation
+417,Assault,Mysuru,Karan Nagar,17.899912,77.40676,2025-11-03,26,50,Closed
+418,Theft,Hubballi,Shanker Road,13.547403,78.019383,2025-12-12,31,21,Under Investigation
+419,Cyber Crime,Hubballi,Kadakia,12.714848,77.984557,2026-02-16,29,30,Under Investigation
+420,Theft,Shivamogga,Khare Chowk,12.971788,77.628497,2026-07-09,23,23,Open
+421,Cyber Crime,Mangaluru,Jha Circle,13.042196,78.585692,2025-10-04,21,27,Under Investigation
+422,Theft,Bengaluru,Balan Road,16.814018,75.940249,2025-09-25,23,30,Open
+423,Murder,Mysuru,Sachdev Zila,14.370775,74.928078,2025-12-17,19,29,Closed
+424,Cyber Crime,Shivamogga,Krish Zila,11.996502,78.299819,2025-07-28,54,38,Open
+425,Murder,Mangaluru,Mand Road,12.574743,75.112677,2025-10-24,47,49,Under Investigation
+426,Fraud,Belagavi,Butala Circle,13.75097,75.87571,2026-05-04,34,41,Open
+427,Fraud,Shivamogga,Sankaran,17.161822,76.06562,2025-09-21,25,55,Closed
+428,Assault,Belagavi,Banik Chowk,16.800001,75.981117,2025-09-26,22,25,Under Investigation
+429,Drug Trafficking,Belagavi,Venkataraman Zila,16.056515,74.368502,2026-05-12,28,36,Open
+430,Drug Trafficking,Hubballi,Aggarwal Marg,13.835242,74.703109,2026-01-02,21,59,Under Investigation
+431,Kidnapping,Mangaluru,Brahmbhatt Zila,13.721705,74.327622,2026-02-01,68,34,Closed
+432,Cyber Crime,Mangaluru,Mitter Road,14.27177,78.531291,2025-12-30,43,23,Closed
+433,Theft,Hubballi,Bhagat Circle,17.251549,74.584219,2025-09-07,26,34,Closed
+434,Kidnapping,Mysuru,Chada Zila,12.145914,76.06105,2025-11-24,30,41,Under Investigation
+435,Cyber Crime,Mysuru,Banerjee Ganj,14.230971,75.52331,2025-09-08,24,18,Open
+436,Drug Trafficking,Bengaluru,Anne Circle,15.479832,76.596871,2025-12-26,53,21,Under Investigation
+437,Fraud,Bengaluru,Minhas,12.115607,78.406413,2025-09-10,35,40,Open
+438,Murder,Mysuru,Narayanan Nagar,14.753725,74.540551,2026-04-04,53,33,Under Investigation
+439,Murder,Belagavi,Memon Road,13.199433,76.218475,2025-09-22,53,22,Closed
+440,Kidnapping,Belagavi,Chandran Road,12.994306,76.505439,2025-10-12,50,28,Closed
+441,Fraud,Hubballi,Bakshi Street,17.451632,77.577856,2026-04-01,29,48,Open
+442,Drug Trafficking,Mangaluru,Kapoor Street,14.154974,74.439131,2026-05-09,66,27,Open
+443,Assault,Mysuru,Contractor Zila,14.569816,76.738738,2025-08-14,32,54,Under Investigation
+444,Fraud,Bengaluru,Chawla Nagar,13.67262,74.476947,2025-09-17,68,57,Under Investigation
+445,Murder,Mysuru,Hari Circle,14.709469,77.706968,2026-05-03,23,38,Closed
+446,Murder,Bengaluru,Panchal Ganj,17.338217,74.141671,2026-05-21,65,43,Open
+447,Murder,Belagavi,Lanka Road,18.294538,76.242225,2026-06-14,66,55,Under Investigation
+448,Assault,Mangaluru,Pant Marg,14.176974,76.482269,2025-09-01,56,60,Open
+449,Assault,Belagavi,Hari Road,14.736188,76.593107,2025-08-19,19,49,Open
+450,Kidnapping,Mangaluru,Andra Zila,14.19628,78.082393,2025-08-19,38,37,Under Investigation
+451,Theft,Belagavi,Sheth Ganj,13.844036,74.13713,2026-06-28,66,41,Under Investigation
+452,Assault,Belagavi,Wagle Path,16.715765,78.560463,2025-12-06,68,37,Open
+453,Cyber Crime,Bengaluru,Ratti Marg,16.702201,76.816457,2026-05-20,18,30,Closed
+454,Kidnapping,Mysuru,Nagy Street,17.47912,76.421817,2025-09-28,44,25,Under Investigation
+455,Cyber Crime,Bengaluru,Mann Chowk,16.706175,74.700118,2025-12-11,37,43,Under Investigation
+456,Theft,Mangaluru,Rai Path,16.540591,77.865624,2025-07-31,50,23,Under Investigation
+457,Robbery,Belagavi,Lanka Marg,12.949408,75.463056,2026-01-01,37,42,Closed
+458,Kidnapping,Bengaluru,Barad Chowk,18.222685,74.900557,2026-01-12,64,53,Closed
+459,Robbery,Hubballi,Saha Chowk,17.752081,76.315257,2025-09-26,31,50,Closed
+460,Cyber Crime,Mysuru,Hari Ganj,14.314605,77.42179,2026-06-23,22,39,Under Investigation
+461,Cyber Crime,Bengaluru,Garg Road,17.858482,77.502627,2025-12-14,25,44,Open
+462,Fraud,Belagavi,Kuruvilla Ganj,13.392413,76.39202,2026-01-24,70,51,Under Investigation
+463,Kidnapping,Hubballi,Kade Circle,13.602867,75.560741,2026-07-21,46,51,Open
+464,Assault,Bengaluru,Yogi Chowk,12.101257,74.685934,2026-02-17,29,32,Under Investigation
+465,Murder,Mangaluru,Agrawal Path,12.085434,74.099311,2025-08-20,57,56,Under Investigation
+466,Theft,Bengaluru,Wadhwa Zila,16.421175,75.154807,2026-04-26,25,23,Open
+467,Cyber Crime,Hubballi,Korpal Zila,14.187656,76.199836,2026-02-08,55,36,Open
+468,Fraud,Bengaluru,Patel Ganj,17.507153,77.546398,2026-04-25,41,31,Under Investigation
+469,Murder,Shivamogga,Mohan Ganj,13.063721,77.338231,2026-04-30,64,60,Open
+470,Fraud,Belagavi,Pandit Zila,14.118653,78.35642,2026-03-04,47,49,Under Investigation
+471,Assault,Belagavi,Parikh Ganj,11.801816,74.703594,2026-06-07,60,23,Under Investigation
+472,Murder,Hubballi,Balakrishnan Path,14.876272,75.040732,2026-01-15,53,31,Closed
+473,Fraud,Hubballi,Kade Nagar,15.978117,74.438414,2025-11-14,52,18,Under Investigation
+474,Fraud,Belagavi,Goda Street,14.521627,74.260333,2026-07-15,67,36,Open
+475,Assault,Hubballi,Mane Marg,17.096473,77.924465,2026-05-02,18,39,Closed
+476,Assault,Shivamogga,Ray,12.438399,75.579688,2026-04-09,59,34,Closed
+477,Murder,Hubballi,Vaidya Circle,11.838694,78.424334,2025-08-28,38,41,Under Investigation
+478,Murder,Mysuru,Sampath,17.336536,77.621514,2026-05-01,42,38,Closed
+479,Murder,Shivamogga,Pandey Nagar,18.21673,75.283993,2025-09-05,36,57,Open
+480,Murder,Mysuru,Behl Ganj,13.122183,74.624707,2025-09-21,29,38,Open
+481,Drug Trafficking,Bengaluru,Arora Ganj,15.689351,74.420188,2025-09-26,24,24,Under Investigation
+482,Fraud,Hubballi,Kuruvilla Ganj,16.162542,78.067364,2025-11-11,34,20,Under Investigation
+483,Drug Trafficking,Mangaluru,Lad Chowk,17.125716,76.021432,2025-10-29,55,48,Open
+484,Theft,Belagavi,Bhatti Circle,15.925417,77.85901,2025-10-11,36,36,Closed
+485,Theft,Shivamogga,Dutta Road,17.540013,76.43231,2026-01-25,64,37,Under Investigation
+486,Robbery,Mysuru,Kara Chowk,18.16509,74.676795,2026-04-30,43,49,Open
+487,Assault,Shivamogga,Chaudhary Street,13.563437,76.472459,2026-02-10,27,43,Under Investigation
+488,Kidnapping,Hubballi,Chada,12.902728,77.182378,2026-03-04,66,52,Closed
+489,Robbery,Belagavi,Thakkar Nagar,17.519017,75.751478,2025-10-16,44,35,Open
+490,Murder,Belagavi,Dar Zila,13.882357,75.164663,2025-08-29,33,21,Closed
+491,Cyber Crime,Bengaluru,Loke Ganj,15.014258,74.66138,2026-02-20,54,18,Under Investigation
+492,Theft,Belagavi,Thaker Road,12.770791,76.850586,2025-08-24,56,28,Open
+493,Kidnapping,Hubballi,Halder Chowk,14.181301,74.395829,2026-01-11,47,56,Open
+494,Drug Trafficking,Mysuru,Rajagopal Marg,15.790702,75.644475,2026-02-04,46,45,Open
+495,Assault,Hubballi,Munshi Marg,13.708682,74.598458,2026-03-30,18,46,Closed
+496,Fraud,Bengaluru,Thakkar Nagar,11.826935,75.801571,2025-10-29,52,44,Under Investigation
+497,Theft,Hubballi,Mukherjee Street,13.186992,74.311338,2026-06-01,44,41,Closed
+498,Kidnapping,Bengaluru,Bal Nagar,15.758708,77.276569,2025-11-05,65,57,Closed
+499,Fraud,Bengaluru,Chhabra Street,17.382769,74.455115,2026-03-27,31,36,Closed
+500,Cyber Crime,Belagavi,Balakrishnan Circle,15.995855,74.182319,2025-12-16,58,40,Closed
+501,Cyber Crime,Belagavi,Minhas Chowk,14.347372,74.471637,2026-04-20,46,24,Under Investigation
+502,Kidnapping,Mangaluru,Kumar Road,15.174248,77.65535,2025-11-15,38,52,Closed
+503,Drug Trafficking,Mysuru,Pillay Path,18.226143,75.638991,2026-06-21,45,35,Under Investigation
+504,Kidnapping,Hubballi,Nagi Ganj,14.07498,75.378835,2025-09-25,58,43,Closed
+505,Murder,Hubballi,Aurora Ganj,13.364799,76.234419,2025-10-16,27,27,Under Investigation
+506,Assault,Belagavi,Mittal,15.635726,77.720408,2025-07-26,30,51,Closed
+507,Fraud,Mangaluru,Bahl Zila,12.188792,75.996166,2025-12-07,65,52,Closed
+508,Kidnapping,Shivamogga,Chadha Chowk,15.661198,76.856221,2026-02-28,26,21,Closed
+509,Kidnapping,Hubballi,Pall Chowk,15.186175,74.166647,2025-12-10,65,18,Open
+510,Murder,Belagavi,Hegde Zila,13.413379,78.017476,2026-06-07,57,56,Closed
+511,Robbery,Mangaluru,Acharya Path,16.6753,75.582276,2026-03-21,54,32,Under Investigation
+512,Drug Trafficking,Mysuru,Tank Chowk,15.371772,74.254,2026-04-01,48,39,Under Investigation
+513,Assault,Bengaluru,Misra Marg,13.639446,75.500607,2026-07-23,61,31,Closed
+514,Kidnapping,Belagavi,Sanghvi Road,14.036254,76.147941,2026-03-29,28,22,Open
+515,Theft,Shivamogga,Thakkar Path,14.657636,78.127213,2026-03-20,41,47,Open
+516,Theft,Hubballi,Narayanan Path,17.8035,78.022565,2026-01-07,68,22,Under Investigation
+517,Drug Trafficking,Hubballi,Bail Zila,17.367917,75.466089,2026-03-26,22,35,Open
+518,Assault,Belagavi,Doshi Road,17.842818,78.441846,2025-10-05,35,48,Closed
+519,Drug Trafficking,Shivamogga,Dora Circle,14.756589,77.641448,2025-11-10,28,40,Open
+520,Robbery,Bengaluru,Dyal,11.983419,74.059326,2025-10-25,60,28,Open
+521,Fraud,Hubballi,Pingle Ganj,13.352072,75.440567,2025-11-17,57,23,Open
+522,Kidnapping,Mangaluru,Narula Circle,13.899231,76.059773,2025-09-27,50,50,Closed
+523,Fraud,Mysuru,Dua Chowk,14.017348,75.945436,2026-06-27,25,18,Open
+524,Cyber Crime,Mysuru,Chatterjee,16.582575,76.214848,2025-12-07,65,51,Closed
+525,Fraud,Mysuru,Patla Ganj,18.138842,77.756795,2025-12-19,64,32,Closed
+526,Kidnapping,Mysuru,Sha Road,16.771949,75.193886,2026-02-15,41,49,Open
+527,Cyber Crime,Belagavi,Rastogi Path,16.915975,76.593006,2026-04-20,37,55,Closed
+528,Robbery,Mangaluru,Gaba Nagar,15.931652,76.567614,2026-07-18,60,24,Open
+529,Murder,Mysuru,Mane Street,16.502264,78.223277,2026-05-29,30,60,Under Investigation
+530,Cyber Crime,Mangaluru,Subramanian Path,17.280395,77.832915,2026-06-04,55,49,Closed
+531,Robbery,Belagavi,Parsa,15.87716,74.484871,2026-03-10,47,30,Under Investigation
+532,Drug Trafficking,Belagavi,Barman Path,13.740794,76.575467,2025-12-12,66,38,Under Investigation
+533,Assault,Belagavi,Bajaj Road,14.929362,76.710623,2026-06-07,52,36,Closed
+534,Cyber Crime,Mangaluru,Mand Circle,17.401441,75.925409,2026-02-16,70,31,Under Investigation
+535,Assault,Hubballi,Kibe Street,12.903696,75.719066,2026-03-16,59,60,Closed
+536,Kidnapping,Belagavi,Kannan Road,13.024123,76.806663,2026-07-16,18,58,Open
+537,Fraud,Hubballi,Salvi Marg,14.689504,74.385808,2026-07-09,46,45,Under Investigation
+538,Fraud,Mangaluru,Mannan Ganj,17.363888,75.267147,2026-01-21,64,24,Under Investigation
+539,Murder,Mangaluru,Aggarwal Street,16.488592,74.368283,2025-10-15,59,46,Closed
+540,Theft,Bengaluru,Agate Marg,15.711062,75.487333,2025-08-16,46,42,Closed
+541,Theft,Mysuru,Samra,15.055741,75.716517,2026-06-03,63,41,Open
+542,Theft,Hubballi,Grover Path,14.023184,78.474216,2025-08-07,41,32,Open
+543,Assault,Mysuru,Wadhwa Road,12.611768,75.13387,2025-12-12,29,47,Under Investigation
+544,Cyber Crime,Mysuru,Borde,15.541671,75.802636,2026-03-09,59,29,Under Investigation
+545,Kidnapping,Bengaluru,Dua Circle,12.720506,74.980208,2026-05-12,68,26,Under Investigation
+546,Fraud,Mysuru,Sane Nagar,11.88827,77.899581,2026-07-17,21,37,Open
+547,Cyber Crime,Belagavi,Kashyap Path,13.513318,78.443472,2025-12-16,63,21,Open
+548,Kidnapping,Mysuru,Vora Chowk,14.845114,74.727886,2025-11-02,42,20,Under Investigation
+549,Murder,Shivamogga,Kadakia Road,14.494312,77.554332,2026-04-11,40,47,Open
+550,Theft,Bengaluru,Padmanabhan Zila,17.514281,75.038679,2025-12-18,58,48,Open
+551,Assault,Belagavi,Chakraborty Zila,14.384985,75.27912,2026-05-16,68,22,Under Investigation
+552,Kidnapping,Belagavi,Mitter Road,12.904713,74.278032,2026-03-29,60,56,Open
+553,Theft,Belagavi,Sengupta Path,15.964883,75.714697,2026-03-07,23,27,Under Investigation
+554,Theft,Shivamogga,Muni Circle,17.207402,74.752537,2025-09-12,47,59,Under Investigation
+555,Robbery,Shivamogga,Manne Road,17.80662,74.468718,2026-06-15,27,58,Open
+556,Murder,Belagavi,Krish Chowk,16.815098,76.796829,2026-01-23,27,60,Closed
+557,Robbery,Mysuru,Hari Marg,14.538872,76.679992,2026-03-08,36,44,Open
+558,Robbery,Belagavi,Krishnan Path,15.098485,78.50819,2026-05-11,23,38,Open
+559,Kidnapping,Hubballi,Sarna Circle,11.953304,77.118668,2025-11-21,38,27,Under Investigation
+560,Theft,Mangaluru,Ratta Marg,14.787561,78.11208,2025-12-22,28,41,Under Investigation
+561,Cyber Crime,Belagavi,Randhawa Street,12.247822,75.528551,2025-08-05,67,47,Closed
+562,Fraud,Bengaluru,Keer Street,17.432424,75.610325,2026-04-21,32,50,Closed
+563,Drug Trafficking,Mysuru,Shetty Chowk,17.734046,75.807399,2026-05-05,28,24,Closed
+564,Fraud,Bengaluru,Deol Circle,17.313812,74.159298,2025-12-24,67,54,Under Investigation
+565,Assault,Belagavi,Nagarajan Marg,15.931402,74.562104,2025-11-06,25,23,Under Investigation
+566,Robbery,Shivamogga,Srivastava Road,18.096697,74.551771,2025-11-12,62,59,Open
+567,Robbery,Mysuru,Sachar Circle,15.792667,76.366649,2026-05-30,33,31,Closed
+568,Theft,Mangaluru,Konda Circle,14.18131,75.689857,2026-05-15,63,52,Closed
+569,Robbery,Shivamogga,Sankar,13.206893,75.110167,2026-05-06,39,60,Under Investigation
+570,Drug Trafficking,Mangaluru,Nori Nagar,14.794449,75.288089,2025-10-19,56,40,Open
+571,Robbery,Belagavi,Korpal Ganj,13.908189,76.124345,2026-07-10,30,49,Closed
+572,Theft,Bengaluru,Hegde Nagar,17.788332,77.975698,2025-11-18,29,45,Open
+573,Kidnapping,Mangaluru,Vasa Road,18.07128,74.797638,2026-03-12,70,24,Closed
+574,Fraud,Mysuru,Ramakrishnan Path,13.193145,77.972331,2025-12-12,36,27,Open
+575,Drug Trafficking,Mangaluru,Karan,13.860935,74.130387,2026-04-13,53,46,Closed
+576,Theft,Mangaluru,Sandal Nagar,12.95267,77.297895,2025-10-25,66,29,Open
+577,Murder,Shivamogga,Bhardwaj Ganj,18.206413,74.318029,2026-03-19,45,21,Open
+578,Theft,Mangaluru,Nath Street,16.046519,74.481542,2026-04-21,57,36,Closed
+579,Fraud,Shivamogga,Baral Path,17.288637,78.583839,2026-03-26,48,19,Under Investigation
+580,Drug Trafficking,Mysuru,Munshi Street,13.944941,75.618538,2025-11-07,65,57,Open
+581,Cyber Crime,Bengaluru,Bora Chowk,17.534877,77.193273,2025-12-26,56,39,Under Investigation
+582,Murder,Mysuru,Shenoy Circle,14.918051,78.385583,2025-08-14,32,37,Open
+583,Drug Trafficking,Shivamogga,Ramaswamy Chowk,15.852558,75.280653,2025-09-06,58,21,Open
+584,Drug Trafficking,Belagavi,Butala Nagar,15.583227,77.947934,2026-05-28,59,34,Open
+585,Murder,Mangaluru,Dalal Street,12.349844,76.535178,2025-09-21,44,34,Closed
+586,Kidnapping,Mysuru,Sule Ganj,17.308355,77.045557,2025-10-10,24,24,Open
+587,Assault,Bengaluru,Lad Road,17.042035,76.271435,2025-11-16,26,22,Under Investigation
+588,Fraud,Shivamogga,Batra Chowk,17.8693,74.345798,2026-05-06,23,54,Closed
+589,Kidnapping,Belagavi,Dash Chowk,16.073381,78.335183,2025-08-11,59,25,Under Investigation
+590,Murder,Belagavi,Devan,15.353285,75.213525,2026-04-06,56,23,Under Investigation
+591,Drug Trafficking,Mysuru,Bala Circle,15.826307,75.16558,2026-04-06,33,24,Under Investigation
+592,Robbery,Bengaluru,Naik Road,12.528924,76.61007,2025-08-07,40,36,Under Investigation
+593,Kidnapping,Hubballi,Devi Nagar,18.392344,76.829412,2025-10-18,22,26,Closed
+594,Theft,Mangaluru,Shah Ganj,12.61525,77.771345,2025-11-23,37,18,Closed
+595,Fraud,Hubballi,Srinivasan Chowk,15.538056,75.780808,2025-10-28,34,23,Open
+596,Drug Trafficking,Mangaluru,Sahota Street,15.653898,77.950156,2026-06-23,70,29,Closed
+597,Kidnapping,Belagavi,Yadav Road,13.749565,74.538118,2025-12-30,36,32,Open
+598,Kidnapping,Shivamogga,Naidu,15.841423,74.982785,2026-01-01,37,29,Closed
+599,Kidnapping,Hubballi,Sanghvi Marg,13.240072,77.512967,2025-10-30,37,38,Closed
+600,Kidnapping,Hubballi,Ray Circle,12.983499,78.588376,2026-06-01,58,48,Under Investigation
+601,Drug Trafficking,Mysuru,Saraf Marg,14.406066,76.443155,2025-10-20,49,50,Open
+602,Robbery,Mysuru,Bail Circle,11.885494,78.258502,2025-10-09,18,20,Open
+603,Cyber Crime,Shivamogga,Rana Road,13.95527,78.493987,2026-02-19,56,29,Under Investigation
+604,Cyber Crime,Shivamogga,Bhatia Marg,12.191473,74.952941,2026-07-05,44,24,Closed
+605,Cyber Crime,Shivamogga,Golla Ganj,14.210698,75.750507,2026-03-16,40,32,Under Investigation
+606,Kidnapping,Shivamogga,Seshadri Marg,17.590768,76.811083,2025-09-17,45,21,Under Investigation
+607,Cyber Crime,Belagavi,Murthy,18.429191,74.379711,2025-12-21,45,32,Under Investigation
+608,Murder,Belagavi,Dave Path,17.396603,75.653314,2025-10-05,58,29,Closed
+609,Kidnapping,Shivamogga,Char Nagar,13.79809,75.984011,2026-05-23,21,60,Open
+610,Murder,Mangaluru,Muni Street,16.55158,75.206136,2026-07-01,30,55,Closed
+611,Assault,Shivamogga,Varty Street,14.71599,76.068162,2026-01-08,46,28,Open
+612,Kidnapping,Shivamogga,Guha,16.039252,78.590863,2025-10-07,20,33,Closed
+613,Robbery,Belagavi,Bera Street,11.971841,77.49477,2026-05-01,41,18,Open
+614,Kidnapping,Mysuru,Shankar Circle,16.637539,74.545457,2026-01-09,60,26,Closed
+615,Fraud,Hubballi,Kanda Marg,14.711705,76.676418,2025-10-30,20,49,Closed
+616,Theft,Belagavi,Mallick Road,11.836664,74.553159,2026-01-19,41,50,Closed
+617,Drug Trafficking,Bengaluru,Kumer Nagar,13.128491,76.477477,2026-05-23,67,42,Closed
+618,Drug Trafficking,Bengaluru,Dani Ganj,16.915716,75.944681,2026-04-25,60,47,Under Investigation
+619,Fraud,Belagavi,Yohannan Street,11.905088,77.741651,2026-04-10,58,32,Open
+620,Assault,Belagavi,Ganesan Marg,18.182868,76.253244,2025-11-09,51,53,Under Investigation
+621,Fraud,Mysuru,Parmar Zila,15.890468,76.484503,2026-02-16,33,45,Under Investigation
+622,Kidnapping,Mangaluru,Vaidya Zila,15.568143,77.332228,2026-03-26,30,21,Open
+623,Drug Trafficking,Belagavi,Venkatesh,14.676621,76.398434,2025-08-18,28,25,Closed
+624,Kidnapping,Belagavi,Atwal Ganj,13.743479,75.554378,2026-04-16,55,47,Closed
+625,Drug Trafficking,Mangaluru,Warrior Street,15.306231,77.132368,2025-11-27,55,34,Under Investigation
+626,Fraud,Bengaluru,Chand Zila,14.996913,77.506038,2025-12-09,53,25,Closed
+627,Fraud,Mysuru,Mohanty Marg,16.185928,78.130819,2026-02-12,33,29,Under Investigation
+628,Drug Trafficking,Belagavi,Swamy,14.838541,75.098916,2026-05-25,37,31,Under Investigation
+629,Assault,Shivamogga,Sarkar Zila,11.906751,75.517118,2026-04-11,58,49,Open
+630,Robbery,Bengaluru,Narain Nagar,18.259627,75.992367,2025-09-18,41,42,Open
+631,Robbery,Shivamogga,Garg Circle,16.427419,75.729818,2025-08-06,54,54,Closed
+632,Murder,Mangaluru,Bhandari Chowk,17.457542,74.696067,2025-11-04,18,57,Open
+633,Cyber Crime,Bengaluru,Char Marg,12.349947,77.367226,2026-03-08,70,58,Under Investigation
+634,Fraud,Mangaluru,Raju Circle,17.37897,77.256352,2026-02-22,60,41,Closed
+635,Kidnapping,Shivamogga,Bansal Nagar,18.359013,74.023333,2026-03-28,28,21,Under Investigation
+636,Assault,Hubballi,Deep Marg,15.973967,76.123621,2026-06-28,32,55,Closed
+637,Cyber Crime,Mangaluru,Lala Street,13.524659,76.82082,2026-02-27,22,38,Under Investigation
+638,Murder,Bengaluru,Palla Road,14.500413,74.785432,2026-07-16,66,21,Open
+639,Cyber Crime,Mysuru,Shan Street,11.972194,76.007316,2026-04-21,44,22,Closed
+640,Theft,Bengaluru,Sane Road,15.757603,78.044047,2025-09-12,48,48,Under Investigation
+641,Fraud,Belagavi,Lal Nagar,13.977001,76.197739,2025-12-10,42,57,Closed
+642,Robbery,Mangaluru,Rao Circle,17.014849,77.392659,2026-07-01,44,37,Under Investigation
+643,Theft,Bengaluru,Kala Chowk,15.49293,78.356674,2026-04-02,66,55,Under Investigation
+644,Murder,Shivamogga,Sami Street,12.584711,75.177698,2026-03-23,65,32,Open
+645,Fraud,Hubballi,Joshi Zila,15.766588,74.543878,2026-04-06,28,42,Under Investigation
+646,Murder,Mangaluru,Sundaram Street,17.826829,78.521283,2026-01-03,56,31,Under Investigation
+647,Cyber Crime,Shivamogga,Pall Marg,12.334538,78.331835,2025-08-28,67,50,Open
+648,Robbery,Shivamogga,Srivastava Zila,11.833356,77.315876,2025-09-17,61,38,Under Investigation
+649,Drug Trafficking,Shivamogga,Shukla Circle,12.041891,77.159074,2025-09-04,25,31,Under Investigation
+650,Theft,Bengaluru,Vora Chowk,13.16273,74.210568,2026-06-25,37,33,Closed
+651,Cyber Crime,Bengaluru,Pandit Road,18.154212,76.815608,2026-05-28,38,40,Closed
+652,Fraud,Mangaluru,Subramaniam Path,13.610606,75.782386,2026-01-31,36,53,Under Investigation
+653,Drug Trafficking,Hubballi,Badami Circle,17.299623,74.706864,2025-12-01,52,40,Open
+654,Drug Trafficking,Belagavi,Dani Nagar,14.157783,76.84105,2026-07-09,70,49,Open
+655,Drug Trafficking,Bengaluru,Chanda Road,17.141507,76.835983,2026-05-21,31,40,Under Investigation
+656,Murder,Shivamogga,Lad,17.532003,75.352157,2025-09-26,24,44,Closed
+657,Murder,Mangaluru,Ramakrishnan Zila,13.585552,78.475688,2025-11-10,23,54,Under Investigation
+658,Cyber Crime,Mangaluru,Joshi Chowk,12.949764,77.665574,2026-04-22,48,20,Under Investigation
+659,Drug Trafficking,Shivamogga,Dixit Street,12.466464,75.847529,2026-05-14,25,38,Open
+660,Theft,Mysuru,Narula Marg,16.84127,75.530267,2025-09-13,59,38,Under Investigation
+661,Assault,Mysuru,Loke Path,16.524509,77.839216,2026-05-02,68,38,Under Investigation
+662,Cyber Crime,Belagavi,Sen Path,14.180277,78.589318,2026-03-17,30,18,Under Investigation
+663,Theft,Shivamogga,Nagy Marg,15.48521,75.479671,2026-04-30,38,35,Open
+664,Robbery,Belagavi,Radhakrishnan Street,15.090781,77.760392,2026-05-11,24,51,Under Investigation
+665,Robbery,Mysuru,Sankar,12.71827,77.420388,2026-02-04,52,34,Open
+666,Fraud,Shivamogga,Pandey Ganj,17.814199,77.593946,2026-04-20,53,18,Open
+667,Robbery,Hubballi,Soman Marg,18.063137,77.348117,2025-12-17,29,46,Under Investigation
+668,Murder,Mangaluru,Raman Circle,15.403087,76.106841,2026-04-07,51,46,Open
+669,Robbery,Shivamogga,Wable,18.399727,74.331687,2026-07-05,34,54,Under Investigation
+670,Theft,Mysuru,Kalita Street,14.185903,74.164073,2026-03-31,60,26,Under Investigation
+671,Murder,Mangaluru,Vig Ganj,16.416673,75.883517,2026-07-06,18,47,Closed
+672,Murder,Hubballi,Varty Ganj,15.573933,77.171674,2025-09-28,49,39,Closed
+673,Murder,Bengaluru,Venkatesh,12.410045,77.414088,2025-08-28,18,21,Open
+674,Murder,Hubballi,Mukherjee Marg,13.970922,76.577243,2025-08-13,57,27,Open
+675,Murder,Hubballi,Bhagat,12.160539,74.413766,2025-11-26,65,46,Closed
+676,Assault,Mangaluru,Pillai Circle,17.6389,74.454197,2026-07-21,55,47,Open
+677,Robbery,Mysuru,Cheema,13.262624,77.221032,2026-05-15,32,43,Under Investigation
+678,Fraud,Hubballi,Kurian Road,14.254767,78.589387,2025-10-05,64,57,Open
+679,Fraud,Mysuru,Srinivasan Street,14.792251,76.757066,2025-09-18,45,59,Closed
+680,Robbery,Hubballi,Suresh Chowk,15.535255,77.636388,2026-05-31,29,57,Open
+681,Robbery,Belagavi,Ghosh Marg,12.871164,76.515245,2025-08-22,60,25,Under Investigation
+682,Kidnapping,Hubballi,Dasgupta Street,12.324976,76.289658,2025-11-24,58,48,Closed
+683,Robbery,Mysuru,Mahajan Zila,16.20226,74.754109,2026-01-03,31,49,Open
+684,Murder,Mangaluru,Warrior Road,13.214417,74.244107,2025-08-29,57,33,Open
+685,Assault,Hubballi,Nayar Street,16.991947,75.1009,2026-02-02,24,46,Open
+686,Fraud,Mysuru,Oak,13.607091,75.051825,2025-12-17,42,28,Closed
+687,Fraud,Bengaluru,Mutti Zila,15.979715,77.278295,2025-12-23,66,37,Open
+688,Drug Trafficking,Shivamogga,Kota Path,13.278404,77.471374,2025-12-01,44,38,Open
+689,Robbery,Shivamogga,Taneja Zila,16.593061,74.450841,2026-06-23,63,39,Closed
+690,Kidnapping,Mysuru,Soman Ganj,11.808081,76.708005,2026-03-24,35,33,Open
+691,Assault,Belagavi,Batta Ganj,13.005843,74.834405,2025-12-05,18,50,Closed
+692,Robbery,Shivamogga,Tailor Nagar,17.056509,78.197342,2026-04-21,32,57,Under Investigation
+693,Fraud,Mysuru,Kaul Zila,14.621351,75.109382,2025-09-12,49,38,Open
+694,Theft,Bengaluru,Gade Road,18.108566,74.661485,2026-06-16,66,55,Closed
+695,Assault,Bengaluru,Comar Street,18.355364,78.125321,2026-02-24,70,31,Under Investigation
+696,Drug Trafficking,Shivamogga,Grewal,11.919939,76.904673,2026-06-29,21,35,Under Investigation
+697,Assault,Mangaluru,Ray Zila,14.928702,78.219517,2026-02-26,67,50,Open
+698,Fraud,Mangaluru,Gulati Ganj,12.290962,77.339237,2026-07-07,52,50,Open
+699,Theft,Bengaluru,Bhagat Circle,17.908747,77.870944,2026-04-08,18,52,Under Investigation
+700,Assault,Hubballi,Kibe Marg,13.351588,76.769139,2026-01-04,42,49,Open
+701,Murder,Hubballi,Choudhary Chowk,15.54352,76.304485,2026-02-12,57,47,Open
+702,Theft,Bengaluru,Kale Chowk,17.473262,76.360847,2025-08-25,54,50,Closed
+703,Murder,Mysuru,Hayer Nagar,16.360242,74.795689,2026-06-06,25,50,Open
+704,Theft,Shivamogga,Tata Street,16.36282,76.158978,2025-09-07,56,32,Closed
+705,Drug Trafficking,Bengaluru,Sengupta Circle,11.807123,77.411348,2025-12-12,37,49,Under Investigation
+706,Robbery,Bengaluru,Sani Street,15.253842,74.871809,2026-02-01,47,33,Closed
+707,Kidnapping,Mangaluru,Som Circle,17.697343,78.096798,2026-02-16,28,60,Under Investigation
+708,Murder,Mysuru,Hans Nagar,15.839697,76.943629,2025-11-11,38,56,Closed
+709,Drug Trafficking,Shivamogga,Dhaliwal Zila,14.729109,75.027186,2026-06-19,53,40,Open
+710,Robbery,Bengaluru,Memon Chowk,15.1813,74.677037,2026-01-15,22,39,Closed
+711,Theft,Shivamogga,Thakur Ganj,16.697677,78.312141,2025-12-04,49,46,Open
+712,Drug Trafficking,Mangaluru,Dixit Zila,16.870554,77.258709,2026-02-03,38,36,Open
+713,Drug Trafficking,Bengaluru,Dara Circle,14.904365,78.102953,2026-03-12,32,59,Closed
+714,Cyber Crime,Mysuru,Bir Street,16.706426,75.690113,2025-10-14,20,22,Closed
+715,Kidnapping,Belagavi,Devan Path,18.222535,75.298874,2026-03-13,54,37,Under Investigation
+716,Kidnapping,Mysuru,Mani Zila,15.645079,74.485569,2025-10-15,39,20,Closed
+717,Drug Trafficking,Bengaluru,Bhavsar Chowk,13.839831,77.526758,2025-12-19,22,50,Under Investigation
+718,Cyber Crime,Mysuru,Sen Zila,17.856279,78.273726,2026-02-12,22,33,Open
+719,Kidnapping,Mysuru,Khosla,13.51205,74.896137,2026-05-30,42,31,Under Investigation
+720,Cyber Crime,Mysuru,De Chowk,17.453177,74.503085,2025-11-18,43,55,Under Investigation
+721,Kidnapping,Hubballi,Lall Marg,13.216171,76.004369,2025-12-29,70,35,Under Investigation
+722,Assault,Belagavi,Mitra Marg,15.656429,78.078907,2026-02-14,50,36,Open
+723,Kidnapping,Shivamogga,Narayan Marg,14.861508,76.010809,2026-01-19,19,42,Open
+724,Assault,Shivamogga,Borde Chowk,17.624713,78.02179,2026-06-29,18,40,Open
+725,Fraud,Belagavi,Apte Street,15.319152,74.668624,2026-01-01,25,44,Under Investigation
+726,Kidnapping,Shivamogga,Pradhan Road,17.403555,77.010367,2026-07-13,46,38,Open
+727,Assault,Hubballi,Borah Nagar,15.499191,75.436308,2025-12-31,19,55,Open
+728,Assault,Shivamogga,Hayer Nagar,18.072778,76.389543,2026-07-03,41,60,Closed
+729,Assault,Hubballi,Bhat Street,11.906176,76.500555,2026-02-04,52,53,Closed
+730,Theft,Shivamogga,Mallick Path,11.848583,78.157378,2025-10-20,47,54,Open
+731,Kidnapping,Mangaluru,Butala Nagar,14.432086,74.007449,2025-10-23,33,32,Open
+732,Cyber Crime,Bengaluru,Karpe Zila,16.793795,77.354293,2025-11-15,55,41,Open
+733,Assault,Belagavi,Mammen Path,12.119153,76.898288,2025-11-12,22,36,Open
+734,Cyber Crime,Bengaluru,Singh Ganj,15.838655,75.667462,2026-04-10,30,25,Under Investigation
+735,Cyber Crime,Mangaluru,Buch Chowk,12.02745,75.952899,2026-07-02,23,56,Under Investigation
+736,Assault,Mangaluru,Prashad Road,16.201607,77.055255,2026-02-22,52,60,Closed
+737,Kidnapping,Shivamogga,Babu Road,17.488691,77.866198,2025-11-01,54,37,Closed
+738,Fraud,Shivamogga,Dalal Nagar,15.838279,78.008774,2026-03-30,55,51,Open
+739,Assault,Mangaluru,Hayre Chowk,17.557457,77.969074,2025-10-27,46,23,Under Investigation
+740,Assault,Mangaluru,Batra Zila,15.822803,76.320386,2025-11-12,57,45,Under Investigation
+741,Murder,Hubballi,Korpal Path,15.009353,77.14046,2025-11-14,22,36,Open
+742,Kidnapping,Mangaluru,Pau,18.257646,74.838219,2025-11-11,69,22,Under Investigation
+743,Theft,Shivamogga,Pathak Marg,14.181214,78.159287,2025-08-08,51,33,Closed
+744,Drug Trafficking,Shivamogga,Gopal Marg,16.785287,76.361391,2026-07-22,34,40,Closed
+745,Cyber Crime,Mangaluru,Mani Road,11.922129,78.301802,2026-04-25,52,49,Open
+746,Fraud,Shivamogga,Sahota Ganj,14.061283,74.540912,2026-04-12,41,57,Under Investigation
+747,Fraud,Hubballi,Kanda Zila,17.994863,75.406125,2026-06-11,60,43,Closed
+748,Murder,Belagavi,Shukla Zila,13.410084,77.521205,2026-01-09,21,21,Closed
+749,Kidnapping,Mysuru,Comar Street,13.938411,74.653339,2025-09-26,35,52,Open
+750,Drug Trafficking,Belagavi,Ravi,17.465109,76.427811,2026-06-11,44,29,Under Investigation
+751,Assault,Hubballi,Gade Ganj,15.142083,77.514317,2025-11-09,48,19,Under Investigation
+752,Robbery,Belagavi,Kara Chowk,15.612161,76.714203,2025-11-18,37,21,Closed
+753,Robbery,Hubballi,Cheema Street,13.418445,74.685117,2026-03-06,57,21,Open
+754,Robbery,Mangaluru,Grewal Street,16.196368,75.502883,2026-06-30,37,52,Closed
+755,Kidnapping,Hubballi,Dewan Circle,13.410727,75.834925,2025-09-10,26,58,Closed
+756,Theft,Mangaluru,Gola Marg,15.326577,76.340973,2025-08-24,36,57,Closed
+757,Cyber Crime,Mangaluru,Suri,14.743502,75.93018,2026-04-26,44,42,Closed
+758,Cyber Crime,Shivamogga,Walia Chowk,18.467137,78.119449,2026-01-29,60,56,Closed
+759,Assault,Hubballi,Nayar Marg,17.613578,76.246237,2026-04-28,20,55,Open
+760,Theft,Belagavi,Chaudhary Path,12.392791,74.433804,2025-07-27,62,54,Closed
+761,Assault,Bengaluru,Khosla,16.223308,75.596532,2025-11-24,69,20,Open
+762,Fraud,Bengaluru,Thaman Ganj,16.35349,78.454381,2026-07-20,68,41,Open
+763,Fraud,Mangaluru,Chauhan Ganj,12.743216,78.287995,2025-11-03,32,27,Under Investigation
+764,Robbery,Mangaluru,Doctor Zila,13.323176,77.769071,2025-09-20,61,24,Open
+765,Assault,Bengaluru,Salvi Street,13.414172,78.01983,2025-08-30,60,55,Closed
+766,Murder,Mysuru,Bhatti Ganj,16.939876,76.100116,2025-09-07,46,54,Open
+767,Cyber Crime,Mangaluru,Manne Circle,16.525332,74.515887,2025-12-11,60,22,Open
+768,Theft,Shivamogga,Chaudhari Chowk,17.714804,74.45189,2025-12-11,28,47,Closed
+769,Fraud,Hubballi,Gopal Marg,14.701637,78.471423,2026-07-15,22,51,Closed
+770,Kidnapping,Bengaluru,Banik Zila,14.984011,76.799764,2025-11-03,66,30,Closed
+771,Cyber Crime,Belagavi,Som Ganj,17.991683,78.095031,2025-09-06,67,24,Open
+772,Assault,Bengaluru,Ramakrishnan Road,12.996694,74.133246,2026-01-01,53,35,Closed
+773,Cyber Crime,Mysuru,D’Alia Street,16.225851,75.136114,2026-04-28,43,34,Closed
+774,Theft,Mangaluru,Kohli Path,16.320967,74.07842,2025-10-19,65,59,Closed
+775,Robbery,Mysuru,Basu,17.424745,76.000294,2025-10-07,30,53,Closed
+776,Fraud,Belagavi,Subramaniam Chowk,18.038876,76.175708,2026-04-17,51,25,Closed
+777,Robbery,Hubballi,Bhattacharyya Ganj,17.776123,75.152577,2025-12-31,31,45,Under Investigation
+778,Kidnapping,Hubballi,Soni Ganj,16.795472,75.062037,2026-04-20,51,41,Open
+779,Cyber Crime,Hubballi,Parekh Chowk,16.804191,77.642437,2026-03-19,62,35,Open
+780,Theft,Mysuru,Prashad,16.142252,74.168116,2026-07-09,30,51,Under Investigation
+781,Drug Trafficking,Hubballi,Nanda Path,17.696546,74.49784,2026-02-11,53,53,Closed
+782,Kidnapping,Mangaluru,Sarna Zila,15.702658,78.545885,2026-07-14,61,29,Under Investigation
+783,Murder,Hubballi,Nigam Ganj,12.671459,75.886952,2025-09-22,46,25,Under Investigation
+784,Drug Trafficking,Hubballi,Ganguly Nagar,12.816483,78.54883,2026-01-16,50,42,Closed
+785,Kidnapping,Hubballi,Dubey,13.997868,78.523966,2025-08-17,19,33,Open
+786,Drug Trafficking,Mysuru,Saraf Zila,12.970561,77.898605,2026-04-06,66,58,Closed
+787,Drug Trafficking,Belagavi,Yogi Circle,11.847135,75.37541,2026-07-21,32,23,Open
+788,Fraud,Bengaluru,Mandal Road,14.288013,74.878826,2025-10-15,44,51,Closed
+789,Cyber Crime,Bengaluru,Choudhary Nagar,12.890744,76.396045,2026-02-11,56,22,Open
+790,Assault,Belagavi,Sahota Ganj,15.285099,78.044396,2026-04-07,64,27,Open
+791,Murder,Mysuru,Buch Ganj,17.555378,75.690219,2026-04-26,50,32,Closed
+792,Kidnapping,Hubballi,Chokshi,15.35258,78.362015,2025-12-23,36,36,Open
+793,Murder,Belagavi,Vaidya Marg,16.050235,77.845405,2026-07-22,50,19,Under Investigation
+794,Robbery,Hubballi,Narang Zila,16.48489,75.994937,2025-12-22,32,45,Under Investigation
+795,Drug Trafficking,Bengaluru,Bhandari Nagar,14.580812,74.804134,2026-03-10,18,54,Open
+796,Cyber Crime,Shivamogga,Parmer Marg,14.013404,76.75185,2026-05-05,38,49,Under Investigation
+797,Theft,Shivamogga,Manne Road,15.070075,76.663435,2026-04-16,47,25,Open
+798,Kidnapping,Belagavi,Karnik Ganj,13.791502,74.320326,2026-02-08,22,48,Open
+799,Kidnapping,Shivamogga,Deshmukh Chowk,17.959017,77.07446,2026-03-31,40,43,Closed
+800,Fraud,Mysuru,Bains Road,14.944227,74.238357,2025-08-30,26,35,Under Investigation
+801,Robbery,Mysuru,Sampath Path,14.697967,78.038083,2025-07-26,27,59,Under Investigation
+802,Kidnapping,Mysuru,Bedi Marg,15.36014,78.066339,2026-07-07,39,50,Closed
+803,Murder,Bengaluru,Bhatti Road,14.483671,77.459285,2025-09-12,63,41,Closed
+804,Robbery,Hubballi,Das Zila,13.573394,75.544514,2026-07-08,46,37,Open
+805,Theft,Mangaluru,Rege Ganj,18.176925,76.803077,2026-03-20,37,58,Open
+806,Assault,Belagavi,Oak Path,14.557539,78.576413,2026-01-03,70,55,Closed
+807,Assault,Mangaluru,Bumb Road,12.938674,77.245443,2025-09-18,52,56,Under Investigation
+808,Assault,Shivamogga,Bhasin Marg,13.616337,74.963829,2025-11-22,22,58,Under Investigation
+809,Murder,Mysuru,Ganesh Path,12.054463,76.129208,2026-05-17,66,19,Under Investigation
+810,Theft,Bengaluru,Kuruvilla Chowk,15.84185,75.471115,2025-12-19,69,27,Under Investigation
+811,Robbery,Mangaluru,Randhawa Marg,17.599323,77.347581,2026-06-10,23,39,Open
+812,Murder,Mysuru,Sinha Path,11.952781,74.071974,2025-10-03,25,23,Open
+813,Murder,Hubballi,Sachdeva Nagar,15.192671,74.545089,2025-12-09,41,34,Open
+814,Theft,Mysuru,Kannan Circle,13.563462,75.213507,2025-11-01,60,24,Closed
+815,Drug Trafficking,Hubballi,Khare Ganj,17.844903,75.832343,2025-11-13,56,25,Closed
+816,Robbery,Shivamogga,Borah Circle,16.390523,77.724166,2026-05-06,56,51,Under Investigation
+817,Fraud,Belagavi,Sahota Road,17.893596,77.105551,2025-12-22,48,42,Open
+818,Drug Trafficking,Shivamogga,Mammen Road,12.105394,74.310494,2026-04-17,33,51,Closed
+819,Robbery,Belagavi,Brahmbhatt Road,17.971114,75.967405,2026-07-16,58,55,Under Investigation
+820,Robbery,Bengaluru,Pillai Road,18.232962,76.127688,2026-04-02,46,49,Closed
+821,Theft,Belagavi,Sehgal Ganj,16.080185,78.490822,2026-06-03,19,24,Under Investigation
+822,Kidnapping,Hubballi,Luthra Marg,17.811821,74.330579,2025-09-12,50,42,Under Investigation
+823,Robbery,Shivamogga,Muni Marg,11.863244,78.113705,2026-06-12,22,49,Closed
+824,Fraud,Shivamogga,Viswanathan Circle,13.624283,75.901803,2026-07-20,55,51,Under Investigation
+825,Cyber Crime,Mysuru,Srinivas Road,17.949034,74.979964,2026-05-10,31,38,Under Investigation
+826,Cyber Crime,Mangaluru,Rattan Marg,12.408139,76.215152,2026-04-27,29,55,Open
+827,Cyber Crime,Mysuru,Nagar Zila,12.734016,75.433009,2025-12-07,42,19,Open
+828,Murder,Mysuru,Sarin Nagar,12.335054,74.638063,2026-05-10,43,56,Closed
+829,Murder,Shivamogga,Balan Path,14.750785,77.201286,2025-12-09,42,33,Under Investigation
+830,Theft,Shivamogga,Dutta Marg,14.37682,74.955805,2026-01-29,51,28,Closed
+831,Cyber Crime,Hubballi,Bhalla Road,15.540252,75.441443,2026-07-03,29,36,Open
+832,Kidnapping,Bengaluru,Nagy Marg,14.414476,78.471644,2026-06-29,25,35,Closed
+833,Drug Trafficking,Hubballi,Buch Ganj,12.287087,74.366109,2026-06-21,64,27,Open
+834,Fraud,Bengaluru,Ray Street,14.086748,77.911407,2026-02-20,67,48,Open
+835,Robbery,Mangaluru,Wali Road,15.673728,74.86347,2026-03-13,30,44,Closed
+836,Murder,Mysuru,Jani Chowk,16.482266,78.046889,2026-05-16,28,53,Closed
+837,Assault,Bengaluru,Ramachandran Marg,13.109299,75.731216,2025-09-19,62,35,Open
+838,Cyber Crime,Shivamogga,Varughese Marg,13.657123,78.084941,2025-09-14,60,19,Under Investigation
+839,Drug Trafficking,Shivamogga,Comar Circle,15.879553,78.562679,2025-08-22,61,45,Closed
+840,Assault,Belagavi,Dutt Street,16.375656,75.285622,2025-12-20,36,19,Open
+841,Fraud,Bengaluru,De Road,14.361304,74.537095,2026-07-23,63,33,Closed
+842,Robbery,Shivamogga,Kunda Street,17.296768,76.011277,2026-02-02,51,53,Closed
+843,Theft,Belagavi,Srinivasan Chowk,17.344383,76.152968,2026-04-04,46,41,Under Investigation
+844,Murder,Mysuru,Nair,15.834966,76.135109,2025-10-31,56,37,Under Investigation
+845,Robbery,Belagavi,Som Zila,12.055215,76.829971,2025-12-20,64,21,Under Investigation
+846,Fraud,Bengaluru,Pandit Ganj,17.114829,74.56338,2026-02-08,49,59,Under Investigation
+847,Drug Trafficking,Mysuru,Chander,17.525944,78.388637,2026-04-08,46,23,Closed
+848,Cyber Crime,Mysuru,Dyal Path,12.587533,75.664266,2026-01-27,65,40,Under Investigation
+849,Assault,Mysuru,Kaul Circle,11.940684,74.364572,2026-07-06,19,38,Under Investigation
+850,Drug Trafficking,Shivamogga,Swaminathan Zila,15.553949,76.463645,2025-12-03,55,23,Open
+851,Kidnapping,Belagavi,Hari Road,15.06914,76.772093,2025-11-06,45,27,Open
+852,Drug Trafficking,Mangaluru,Venkatesh Path,12.956216,76.264076,2026-05-23,48,48,Closed
+853,Robbery,Mysuru,Upadhyay Path,14.335972,75.364074,2026-07-24,62,58,Open
+854,Fraud,Shivamogga,Ganesh Chowk,16.07763,74.671842,2025-09-02,63,27,Open
+855,Cyber Crime,Hubballi,Sehgal Chowk,13.112368,78.320191,2026-06-16,52,53,Under Investigation
+856,Robbery,Bengaluru,Randhawa Circle,13.837501,77.596627,2026-04-15,48,34,Under Investigation
+857,Fraud,Belagavi,Shere Zila,14.918839,74.946112,2026-05-24,46,33,Closed
+858,Fraud,Shivamogga,Devi Road,16.795853,78.138973,2025-11-21,31,23,Under Investigation
+859,Theft,Hubballi,Kadakia Street,17.626609,77.932646,2026-01-21,63,21,Open
+860,Theft,Shivamogga,Kapoor Street,15.690644,74.906885,2025-08-12,62,56,Under Investigation
+861,Assault,Hubballi,Badami Zila,12.449536,74.799539,2026-02-21,52,57,Open
+862,Fraud,Mangaluru,Konda Marg,14.616485,78.343117,2025-09-19,49,44,Under Investigation
+863,Robbery,Mysuru,Bora Road,17.209325,74.308053,2025-11-18,46,47,Under Investigation
+864,Drug Trafficking,Bengaluru,Acharya Path,17.408004,76.566045,2026-01-12,27,28,Closed
+865,Robbery,Hubballi,Deep Path,16.806717,74.598069,2026-03-17,47,48,Closed
+866,Theft,Shivamogga,Muni Chowk,15.452299,74.454639,2026-04-19,62,18,Under Investigation
+867,Drug Trafficking,Mysuru,Menon Circle,13.042529,76.571945,2026-04-05,69,29,Under Investigation
+868,Robbery,Bengaluru,Kamdar,17.64179,76.80847,2026-05-22,23,58,Under Investigation
+869,Robbery,Shivamogga,Shetty Chowk,16.580827,78.095072,2025-08-13,28,32,Under Investigation
+870,Theft,Shivamogga,Kadakia Path,18.392801,78.296081,2025-12-26,66,54,Open
+871,Murder,Mangaluru,Yadav Ganj,13.156691,74.86979,2026-07-22,48,23,Open
+872,Cyber Crime,Belagavi,Luthra Zila,14.124099,74.274527,2025-08-07,42,36,Under Investigation
+873,Drug Trafficking,Belagavi,Atwal Circle,11.821156,76.29873,2026-01-19,42,53,Closed
+874,Murder,Belagavi,Palla Zila,13.862921,76.1135,2025-09-13,37,54,Open
+875,Kidnapping,Bengaluru,Salvi Nagar,15.221687,75.391929,2025-11-07,60,45,Closed
+876,Theft,Mysuru,Sankar Zila,14.784866,78.129686,2025-09-28,31,43,Open
+877,Robbery,Belagavi,Goyal Chowk,12.945986,74.490864,2025-09-13,39,40,Closed
+878,Theft,Belagavi,Lal Road,13.164211,74.976994,2026-05-25,49,46,Open
+879,Cyber Crime,Hubballi,Sami Zila,13.245306,74.899635,2026-02-21,32,47,Open
+880,Cyber Crime,Belagavi,Saha Circle,14.966593,75.847686,2025-08-24,52,53,Closed
+881,Drug Trafficking,Mysuru,Barad Street,13.547394,76.409034,2026-02-28,59,57,Under Investigation
+882,Cyber Crime,Mangaluru,Thakur Road,13.991858,74.074365,2026-03-27,55,50,Open
+883,Theft,Mysuru,Reddy Chowk,16.161364,78.029868,2026-02-15,39,19,Closed
+884,Murder,Hubballi,Modi Marg,16.912007,75.526356,2025-08-10,62,33,Closed
+885,Assault,Mysuru,Borah Chowk,18.480436,74.50855,2025-10-14,68,41,Open
+886,Drug Trafficking,Mysuru,Ratta Circle,13.756048,75.459262,2026-07-07,55,33,Closed
+887,Fraud,Belagavi,Lata Chowk,16.29535,76.820337,2025-11-18,50,28,Open
+888,Murder,Bengaluru,Mani Road,17.552197,77.211959,2025-08-16,37,33,Open
+889,Assault,Hubballi,Vasa Chowk,14.316566,77.826252,2025-10-06,48,19,Closed
+890,Theft,Shivamogga,Bandi Ganj,13.829916,77.802596,2025-09-25,30,43,Under Investigation
+891,Robbery,Mysuru,Handa Road,17.42182,75.170991,2026-02-27,20,34,Under Investigation
+892,Cyber Crime,Mangaluru,Sharaf,13.241185,76.009758,2026-03-31,56,40,Open
+893,Fraud,Shivamogga,Murthy Path,18.470157,74.172319,2025-09-04,35,56,Open
+894,Drug Trafficking,Mangaluru,Ghose Road,15.728943,76.616756,2025-07-29,26,19,Closed
+895,Murder,Mangaluru,Raja Nagar,12.669143,76.099602,2026-06-18,33,35,Open
+896,Drug Trafficking,Shivamogga,Oak,18.3648,77.417188,2025-11-18,42,57,Open
+897,Robbery,Shivamogga,Sangha Ganj,13.035829,77.709346,2026-07-23,42,49,Closed
+898,Robbery,Shivamogga,Sharma,16.951228,75.155056,2026-04-25,53,39,Closed
+899,Fraud,Mangaluru,Boase,17.362229,77.639912,2025-12-24,48,54,Under Investigation
+900,Drug Trafficking,Belagavi,Bora Marg,12.190467,76.919536,2025-08-31,70,30,Open
+901,Kidnapping,Bengaluru,Palla Road,14.842486,77.528517,2025-12-05,61,36,Under Investigation
+902,Fraud,Bengaluru,Chander Circle,12.106622,74.977399,2025-10-05,32,51,Under Investigation
+903,Murder,Bengaluru,Trivedi Ganj,13.078211,77.154923,2025-11-23,38,42,Open
+904,Cyber Crime,Hubballi,Suresh Ganj,14.597993,74.131085,2026-03-14,69,34,Under Investigation
+905,Theft,Mysuru,Basu Marg,17.388745,75.603542,2026-01-01,55,49,Under Investigation
+906,Murder,Mysuru,Vohra,12.218869,78.116641,2025-11-03,57,20,Closed
+907,Kidnapping,Shivamogga,Toor Nagar,15.434914,77.126227,2025-08-17,67,38,Open
+908,Kidnapping,Bengaluru,Warrior Marg,17.595906,77.02166,2026-04-23,57,56,Closed
+909,Kidnapping,Shivamogga,Dasgupta Circle,15.801095,74.839638,2026-03-25,25,53,Closed
+910,Assault,Mysuru,Krish Chowk,14.621174,76.287271,2026-05-24,40,43,Under Investigation
+911,Murder,Hubballi,Sagar,14.932705,78.217266,2025-09-18,56,44,Under Investigation
+912,Assault,Belagavi,Samra Circle,16.202299,78.270339,2026-02-24,66,44,Closed
+913,Theft,Belagavi,Sama Nagar,14.574088,77.62457,2025-11-12,70,29,Under Investigation
+914,Theft,Shivamogga,Walia Circle,15.238478,75.302122,2026-06-23,39,32,Open
+915,Theft,Bengaluru,Deo Zila,15.899736,77.037852,2025-10-21,68,55,Open
+916,Kidnapping,Hubballi,Krish Path,15.532326,77.122127,2026-02-21,70,25,Under Investigation
+917,Cyber Crime,Shivamogga,Kadakia Ganj,12.991485,74.29568,2025-10-17,58,53,Open
+918,Murder,Bengaluru,Bora Marg,15.630695,76.555759,2025-10-15,35,39,Open
+919,Kidnapping,Mangaluru,Balasubramanian Nagar,18.378273,76.169291,2026-07-06,30,18,Under Investigation
+920,Fraud,Shivamogga,Patla Marg,16.315597,74.956417,2026-05-08,29,42,Under Investigation
+921,Drug Trafficking,Hubballi,Sachar Nagar,17.861189,77.788363,2025-11-26,32,24,Under Investigation
+922,Assault,Belagavi,Bansal Zila,18.107062,77.297319,2025-07-26,65,20,Closed
+923,Fraud,Bengaluru,Sethi Marg,17.326726,77.452616,2025-10-30,55,56,Closed
+924,Assault,Mangaluru,Mammen,14.348891,76.581959,2025-12-07,46,58,Closed
+925,Robbery,Shivamogga,Edwin Marg,16.302129,74.200327,2025-12-11,66,59,Under Investigation
+926,Theft,Mysuru,Chacko Street,14.268918,75.214276,2026-05-13,20,57,Closed
+927,Kidnapping,Bengaluru,Loyal Circle,16.087949,76.351428,2026-04-26,25,43,Under Investigation
+928,Drug Trafficking,Mangaluru,Nanda Path,16.528889,74.950761,2026-01-31,40,52,Under Investigation
+929,Fraud,Belagavi,Varty Zila,15.459268,77.313402,2026-05-29,42,37,Under Investigation
+930,Robbery,Hubballi,Brar Zila,13.803389,74.34978,2026-04-17,47,52,Under Investigation
+931,Assault,Shivamogga,Jha Road,17.931176,75.752213,2026-01-29,40,51,Under Investigation
+932,Theft,Mysuru,Bhandari Circle,14.741434,75.2049,2026-01-29,54,31,Closed
+933,Assault,Shivamogga,Madan Circle,15.641679,77.612938,2026-01-11,36,46,Under Investigation
+934,Robbery,Mangaluru,Goel Circle,13.870997,75.229886,2026-07-24,47,32,Under Investigation
+935,Murder,Mangaluru,Venkatesh Street,16.556285,76.567712,2026-02-08,40,22,Closed
+936,Cyber Crime,Mangaluru,Pillay Marg,15.387898,74.183227,2026-06-25,22,57,Open
+937,Cyber Crime,Belagavi,Mital Zila,13.710565,77.352817,2026-06-21,25,34,Under Investigation
+938,Fraud,Bengaluru,Nath Zila,15.466808,78.239925,2026-04-13,39,43,Open
+939,Cyber Crime,Hubballi,Dara Path,17.304135,75.280885,2025-10-14,64,53,Under Investigation
+940,Kidnapping,Mangaluru,Mammen Chowk,14.308561,74.014157,2026-04-10,49,25,Closed
+941,Drug Trafficking,Belagavi,Hans Marg,14.04246,78.118438,2026-01-17,62,30,Closed
+942,Robbery,Hubballi,Brar Marg,15.851251,74.544035,2026-07-10,30,35,Under Investigation
+943,Fraud,Mangaluru,Nayar Path,18.381359,74.349253,2026-03-25,24,24,Under Investigation
+944,Assault,Mysuru,Raghavan Zila,12.616338,78.510137,2026-03-21,25,35,Open
+945,Robbery,Mangaluru,Uppal Path,17.437069,75.407585,2025-10-23,36,42,Open
+946,Drug Trafficking,Belagavi,Loke Chowk,13.336983,76.020388,2026-02-10,23,41,Closed
+947,Murder,Mangaluru,Mann Path,15.497044,74.538399,2025-10-25,36,20,Closed
+948,Drug Trafficking,Shivamogga,Prashad Chowk,12.267357,77.259199,2026-02-10,38,18,Open
+949,Kidnapping,Belagavi,Varughese Nagar,12.027413,74.716204,2025-09-01,31,58,Closed
+950,Theft,Mysuru,Trivedi Path,14.184294,77.60179,2026-01-08,18,26,Closed
+951,Drug Trafficking,Hubballi,Barad Nagar,15.130253,75.5876,2026-05-25,29,30,Open
+952,Assault,Mangaluru,Iyengar Chowk,13.340285,77.590786,2025-12-14,23,57,Open
+953,Murder,Bengaluru,Butala Ganj,15.428818,75.761086,2026-04-13,47,41,Closed
+954,Murder,Mysuru,Nayak Nagar,17.811863,78.088505,2025-11-24,36,39,Open
+955,Cyber Crime,Belagavi,Chakrabarti Path,13.880533,77.172595,2025-12-24,22,46,Closed
+956,Drug Trafficking,Mangaluru,Sankar Street,16.592373,77.444313,2026-07-20,64,32,Closed
+957,Assault,Shivamogga,Dua Circle,16.608974,77.2377,2026-07-23,33,45,Closed
+958,Assault,Hubballi,Sane Ganj,13.86733,77.13541,2026-07-04,70,60,Open
+959,Assault,Belagavi,Mutti Circle,13.369646,76.364593,2025-10-30,70,30,Closed
+960,Drug Trafficking,Bengaluru,Sankaran Ganj,13.88997,77.276773,2025-09-22,27,25,Under Investigation
+961,Kidnapping,Shivamogga,Tiwari Zila,12.543872,78.288215,2026-04-08,23,37,Open
+962,Theft,Shivamogga,Sampath Circle,15.695447,76.572853,2026-04-18,56,36,Closed
+963,Fraud,Hubballi,Lala Marg,14.218108,74.503944,2025-09-17,20,25,Closed
+964,Fraud,Shivamogga,Buch Road,12.966956,77.970049,2026-05-31,25,26,Open
+965,Cyber Crime,Shivamogga,Saxena Chowk,13.288127,74.880832,2026-05-04,34,50,Open
+966,Murder,Shivamogga,Pandya,16.581572,74.211051,2025-11-15,46,43,Open
+967,Theft,Bengaluru,Golla,11.829914,74.089521,2025-08-30,41,45,Under Investigation
+968,Fraud,Shivamogga,Tata Street,17.841103,76.592374,2026-05-24,54,51,Under Investigation
+969,Cyber Crime,Mysuru,Viswanathan Circle,17.626853,76.900042,2025-11-13,65,24,Open
+970,Fraud,Hubballi,Sood Zila,14.234971,74.059896,2025-09-13,20,56,Open
+971,Murder,Shivamogga,Ahuja Path,12.577193,75.22022,2025-10-05,55,29,Closed
+972,Robbery,Mysuru,Deep Path,17.591345,74.037065,2026-03-06,48,19,Under Investigation
+973,Kidnapping,Bengaluru,Bhatia Chowk,12.722189,76.782293,2026-07-16,59,39,Under Investigation
+974,Robbery,Belagavi,Sarraf Path,17.933552,77.896951,2026-03-19,46,59,Under Investigation
+975,Assault,Shivamogga,Memon Circle,14.46908,74.959268,2025-10-19,50,43,Open
+976,Murder,Belagavi,Chowdhury Path,13.751397,78.026157,2025-08-16,65,42,Open
+977,Robbery,Shivamogga,Palla Marg,16.930886,77.379973,2025-08-21,46,48,Closed
+978,Fraud,Shivamogga,Mandal Street,16.980969,76.869732,2026-05-26,38,24,Open
+979,Murder,Belagavi,Butala Path,12.824207,76.562356,2025-09-18,60,57,Under Investigation
+980,Kidnapping,Belagavi,Kota Street,16.492911,78.394614,2026-01-16,55,41,Open
+981,Kidnapping,Mysuru,Rout Street,14.02305,76.622061,2026-04-04,33,50,Under Investigation
+982,Murder,Mangaluru,Dubey Circle,14.763966,77.215571,2025-07-25,52,43,Under Investigation
+983,Fraud,Mangaluru,Naidu Path,16.827337,77.752423,2026-05-18,59,18,Under Investigation
+984,Robbery,Mangaluru,Bali Marg,15.639116,74.431652,2025-09-20,36,22,Under Investigation
+985,Murder,Shivamogga,Jayaraman Chowk,18.414973,77.52843,2026-04-23,58,45,Under Investigation
+986,Theft,Shivamogga,Grewal Zila,12.155981,76.580928,2025-09-22,27,41,Open
+987,Kidnapping,Belagavi,Kashyap Ganj,16.578443,74.096343,2026-03-16,37,55,Under Investigation
+988,Theft,Belagavi,Sarkar Nagar,12.457793,77.275884,2026-03-21,60,22,Open
+989,Cyber Crime,Mangaluru,Kuruvilla,14.074515,74.667574,2025-09-15,45,37,Under Investigation
+990,Drug Trafficking,Shivamogga,Nagarajan Marg,17.936927,75.929301,2026-04-07,27,25,Under Investigation
+991,Murder,Bengaluru,Shroff Ganj,15.720837,76.00689,2026-05-26,70,24,Under Investigation
+992,Assault,Mysuru,Cheema Ganj,15.919618,77.90488,2025-12-27,42,29,Closed
+993,Drug Trafficking,Mysuru,Atwal Ganj,15.551663,74.288305,2026-01-22,37,21,Closed
+994,Kidnapping,Belagavi,Morar Road,11.873756,76.598506,2026-06-03,58,33,Open
+995,Theft,Mangaluru,Viswanathan,17.319732,74.374683,2026-03-02,65,18,Open
+996,Robbery,Mysuru,Soman Ganj,15.941973,77.490335,2026-05-28,26,32,Open
+997,Drug Trafficking,Bengaluru,Suresh Ganj,17.972381,74.170434,2025-08-22,43,55,Closed
+998,Fraud,Belagavi,Chahal Road,17.165576,74.701597,2026-07-11,54,40,Closed
+999,Kidnapping,Belagavi,Nori Zila,15.343284,76.473868,2025-07-25,48,47,Open
+1000,Murder,Mysuru,Sarkar Circle,12.146613,75.746683,2026-05-28,50,44,Open
