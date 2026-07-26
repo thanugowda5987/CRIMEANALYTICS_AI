@@ -1,0 +1,10 @@
+[2026-07-26T06:19:37.947Z] INFO: MongoDB connected successfully
+[2026-07-26T06:19:37.951Z] INFO: Server running on port 5000
+[2026-07-26T06:20:28.619Z] ERROR: GET / - Route not found: /
+[2026-07-26T06:20:28.897Z] ERROR: GET /favicon.ico - Route not found: /favicon.ico
+[2026-07-26T06:22:50.110Z] INFO: MongoDB connected successfully
+[2026-07-26T06:23:40.168Z] INFO: MongoDB connected successfully
+[2026-07-26T06:23:40.168Z] INFO: MongoDB connected successfully
+[2026-07-26T06:23:40.173Z] INFO: Server running on port 5000
+[2026-07-26T06:25:33.379Z] INFO: MongoDB connected successfully
+[2026-07-26T06:25:33.383Z] INFO: Server running on port 5000

@@ -2,4 +2,10 @@
 __pycache__/
 *.pyc
 .env
+<<<<<<< HEAD
 .venv-1/
+=======
+.venv/
+.venv-1/
+backend/node_modules/
+>>>>>>> backend
